@@ -1,88 +1,179 @@
-\# CareShield
+# CareShield
+### Healthcare Scam and Access Defender
 
+**A privacy-focused healthcare scam detection project**
 
+CareShield is a cybersecurity project developed as part of a fellowship with the Chicago Education Advocacy Cooperative (ChiEAC).
 
-CareShield is a healthcare scam and access defender developed as part of a fellowship project with the Chicago Education Advocacy Cooperative (ChiEAC).
+The goal is to help people identify suspicious healthcare-related emails and text messages, understand potential scam indicators, and receive clear guidance on what to do next.
 
+The project focuses on explainable threat detection, security automation, privacy protection, and accessible English and Spanish guidance.
 
+---
 
-The goal of CareShield is to help people determine whether healthcare-related emails or text messages may be scams, explain the reasons in plain language, and provide clear next steps.
+## Project Overview
 
+CareShield is designed to identify five major categories of healthcare scams:
 
+1. Fake Insurance Enrollment and Marketplace Impersonation
+2. Medical Debt Collection Scams
+3. Prescription and Pharmacy Scams
+4. Phishing and Credential Harvesting
+5. Medicare, Medicaid, HHS-OIG, and Healthcare Provider Impersonation
 
-\## Current Status
+The planned application will analyze submitted messages, identify suspicious patterns, calculate a risk score, and generate understandable explanations and recommended actions.
 
+---
 
+## Current Development Status
 
-Week 1 - Foundations
+**Milestone 1: Foundations — October 5–9, 2026**
 
+The initial project foundation includes:
 
+- A healthcare scam taxonomy with 40 detection indicators
+- English and Spanish explanations for all indicators
+- Low, Medium, and High indicator weights
+- Privacy-by-design architecture documentation
+- Pydantic input validation for messages, uploads, and questionnaires
+- 20 synthetic healthcare messages in CSV and JSON formats
+- Automated testing using pytest
+- Code quality checks using Ruff
+- GitHub Actions continuous integration
+- Python 3.12 development environment
 
-Current development includes:
+**Current testing results:**
 
+- 8 automated tests passing
+- Ruff linting checks passing
+- GitHub Actions CI passing
 
+The detection engine, machine-learning models, web application, and analytics dashboards will be developed in later milestones.
 
-\- Healthcare scam taxonomy
+---
 
-\- Privacy-by-design architecture
+## Planned Technology Stack
 
-\- Input validation
+### Programming and Data Processing
 
-\- Synthetic sample data
+- Python 3.12
+- pandas
+- Pydantic
+- spaCy
+- scikit-learn
 
-\- Automated testing and continuous integration
+### Security and Threat Intelligence
 
+- Microsoft Presidio
+- OpenPhish
+- URLhaus
+- PhishTank
+- RDAP Domain Intelligence
+- CMS NPI Registry
+- Splunk Enterprise
 
+### Application and Analytics
 
-\## Planned Technology Stack
+- FastAPI
+- Streamlit
+- DuckDB
+- Plotly
 
+### Development and Deployment
 
+- Git and GitHub
+- GitHub Actions
+- pytest
+- Ruff
+- uv
+- Docker
 
-\- Python 3.12
+---
 
-\- pandas
+## Project Documentation
 
-\- scikit-learn
+The following project documents are available:
 
-\- spaCy
+- [Healthcare Scam Taxonomy](docs/taxonomy.md) — Detection categories, 40 indicators, bilingual explanations, and severity weights.
+- [Privacy Design](docs/privacy-design.md) — Data flow, sensitive-information handling, and privacy safeguards.
+- [Input Validation Module](careshield/ingest.py) — Pydantic schemas for supported input methods.
+- [Validation Tests](tests/test_ingest.py) — Automated input validation tests.
+- [Synthetic Sample CSV](data/samples/sample.csv) — 20 fictional healthcare messages.
+- [Synthetic Sample JSON](data/samples/sample.json) — JSON version of the sample dataset.
 
-\- Microsoft Presidio
+---
 
-\- Pydantic
+## Getting Started
 
-\- FastAPI
+### Prerequisites
 
-\- Streamlit
+- Python 3.12
+- uv
+- Git
 
-\- Splunk
+### Install Dependencies
 
-\- DuckDB
+Run `uv sync` from the project directory.
 
-\- Docker
+### Run Automated Tests
 
-\- GitHub Actions
+Run `uv run pytest` to execute the test suite.
 
+### Run Code Quality Checks
 
+Run `uv run ruff check .` to check Python code quality.
 
-\## Privacy Design
+---
 
+## Privacy and Security
 
+CareShield follows a privacy-by-design approach.
 
-CareShield is designed so that sensitive message content and personally identifiable information are not stored or emitted to analytics systems.
+The planned application is designed to:
 
+- Process message contents in memory.
+- Avoid storing sensitive healthcare or personal information.
+- Redact personally identifiable information using Microsoft Presidio.
+- Send only approved de-identified events to organizational analytics systems.
+- Protect sensitive information through data minimization.
+- Avoid exposing API keys or credentials in the public repository.
 
+Privacy protections will be implemented and validated during later milestones.
 
-\## Sponsoring Organization
+---
 
+## Project Roadmap
 
+| Week | Development Focus |
+|---|---|
+| Week 1 | Project foundation, taxonomy, privacy design, and input validation |
+| Week 2 | Synthetic datasets and detection rules engine |
+| Week 3 | Threat-intelligence enrichment and domain analysis |
+| Week 4 | NLP classification, risk scoring, and explanations |
+| Week 5 | Streamlit web application, FastAPI, and bilingual action plans |
+| Week 6 | Splunk dashboards, alerts, and privacy auditing |
+| Week 7 | Deployment, documentation, and final presentation |
 
-Developed as part of a fellowship with the Chicago Education Advocacy Cooperative (ChiEAC).
+---
 
+## Sponsoring Organization
 
+This project is being developed as part of a fellowship with the **Chicago Education Advocacy Cooperative (ChiEAC)**.
 
-\## License
+**Project:** CareShield — Healthcare Scam and Access Defender
 
+**Sponsoring Organization:** Chicago Education Advocacy Cooperative
 
+---
 
-MIT License
+## License
 
+This project is released under the [MIT License](LICENSE).
+
+---
+
+## Disclaimer
+
+CareShield is an educational cybersecurity project.
+
+Its future detection results are not a substitute for professional medical, financial, legal, or insurance advice. Users should independently verify suspicious communications through official organizational contact channels.
