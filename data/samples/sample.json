@@ -1,0 +1,102 @@
+[
+  {
+    "id": "m001",
+    "channel": "sms",
+    "text": "You qualify for a guaranteed $0 health plan. Send your Social Security number before midnight."
+  },
+  {
+    "id": "m002",
+    "channel": "email",
+    "text": "URGENT: Your health insurance enrollment expires today. Complete verification at enrollment-help.example."
+  },
+  {
+    "id": "m003",
+    "channel": "sms",
+    "text": "Su seguro medico gratuito esta aprobado. Envie su numero de Seguro Social para activar el plan."
+  },
+  {
+    "id": "m004",
+    "channel": "sms",
+    "text": "You owe $850 for hospital services. Pay today using gift cards or legal action will begin."
+  },
+  {
+    "id": "m005",
+    "channel": "email",
+    "text": "FINAL NOTICE: Your medical debt requires immediate payment. We cannot provide written verification."
+  },
+  {
+    "id": "m006",
+    "channel": "sms",
+    "text": "Tiene una deuda medica pendiente. Pague hoy por transferencia o enfrentara acciones legales."
+  },
+  {
+    "id": "m007",
+    "channel": "email",
+    "text": "Buy prescription weight-loss medication without a prescription. Pay with cryptocurrency today."
+  },
+  {
+    "id": "m008",
+    "channel": "sms",
+    "text": "LIMITED OFFER: Brand-name prescription drugs at 90 percent off. Only 10 minutes remaining."
+  },
+  {
+    "id": "m009",
+    "channel": "sms",
+    "text": "Compre medicamentos sin receta a mitad de precio. Solo aceptamos pagos con criptomonedas."
+  },
+  {
+    "id": "m010",
+    "channel": "email",
+    "text": "Your lab results are ready. Enter your patient portal password at patient-results.example to view them."
+  },
+  {
+    "id": "m011",
+    "channel": "sms",
+    "text": "Your healthcare account will be suspended in one hour. Confirm your login code at secure-login.example."
+  },
+  {
+    "id": "m012",
+    "channel": "email",
+    "text": "Sus resultados medicos estan disponibles. Ingrese su contrasena en portal-salud.example."
+  },
+  {
+    "id": "m013",
+    "channel": "sms",
+    "text": "MEDICARE ALERT: Your new Medicare card is ready. Reply with your Medicare number to activate it."
+  },
+  {
+    "id": "m014",
+    "channel": "email",
+    "text": "Government health benefits notice: Receive free medical equipment by confirming your Medicare ID."
+  },
+  {
+    "id": "m015",
+    "channel": "sms",
+    "text": "AVISO DE MEDICAID: Perdera su cobertura hoy. Verifique sus datos en cobertura-ayuda.example."
+  },
+  {
+    "id": "m016",
+    "channel": "sms",
+    "text": "Appointment reminder: Your clinic visit is scheduled for Monday at 2 PM. Contact your clinic to reschedule."
+  },
+  {
+    "id": "m017",
+    "channel": "email",
+    "text": "Your monthly Explanation of Benefits is available through your usual insurance account."
+  },
+  {
+    "id": "m018",
+    "channel": "sms",
+    "text": "Your prescription is ready for pickup. Please bring identification to the pharmacy."
+  },
+  {
+    "id": "m019",
+    "channel": "email",
+    "text": "Your appointment was successfully canceled. Contact your clinic if you would like to reschedule."
+  },
+  {
+    "id": "m020",
+    "channel": "sms",
+    "text": "Recordatorio: Tiene una cita medica el martes. Llame directamente a su clinica si necesita cambiarla."
+  }
+]
