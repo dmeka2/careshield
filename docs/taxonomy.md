@@ -33,14 +33,11 @@ These indicators are intended to support the deterministic CareShield rules engi
 ## Weighting Guide
 
 | Weight | Meaning |
-
 |---|---|
-
 | Low | Weak supporting signal that should rarely raise risk substantially by itself. |
-
 | Medium | Meaningful suspicious signal that increases risk when combined with other evidence. |
-
 | High | Strong scam indicator involving sensitive information, deceptive identity claims, threats, unusual payments, or other high-risk behavior. |
+
 
 ## 1. Fake Insurance Enrollment and Marketplace Impersonation
 
@@ -519,3 +516,4 @@ This initial taxonomy was developed from:
 - U.S. Food and Drug Administration guidance on unsafe online pharmacies and counterfeit or improperly marketed prescription medicines.
 
 Source links and verification dates will be maintained separately in `docs/sources.md` as the project progresses.
+
