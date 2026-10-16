@@ -1,0 +1,21 @@
+id,channel,language,text,label,family,source
+m001,sms,en,You qualify for a guaranteed $0 health plan. Send your Social Security number before midnight.,scam,insurance_enrollment,careshield_synthetic_week1
+m002,email,en,URGENT: Your health insurance enrollment expires today. Complete verification at enrollment-help.example.,scam,insurance_enrollment,careshield_synthetic_week1
+m003,sms,es,Su seguro medico gratuito esta aprobado. Envie su numero de Seguro Social para activar el plan.,scam,insurance_enrollment,careshield_synthetic_week1
+m004,sms,en,You owe $850 for hospital services. Pay today using gift cards or legal action will begin.,scam,medical_debt,careshield_synthetic_week1
+m005,email,en,FINAL NOTICE: Your medical debt requires immediate payment. We cannot provide written verification.,scam,medical_debt,careshield_synthetic_week1
+m006,sms,es,Tiene una deuda medica pendiente. Pague hoy por transferencia o enfrentara acciones legales.,scam,medical_debt,careshield_synthetic_week1
+m007,email,en,Buy prescription weight-loss medication without a prescription. Pay with cryptocurrency today.,scam,pharmacy,careshield_synthetic_week1
+m008,sms,en,LIMITED OFFER: Brand-name prescription drugs at 90 percent off. Only 10 minutes remaining.,scam,pharmacy,careshield_synthetic_week1
+m009,sms,es,Compre medicamentos sin receta a mitad de precio. Solo aceptamos pagos con criptomonedas.,scam,pharmacy,careshield_synthetic_week1
+m010,email,en,Your lab results are ready. Enter your patient portal password at patient-results.example to view them.,scam,phishing,careshield_synthetic_week1
+m011,sms,en,Your healthcare account will be suspended in one hour. Confirm your login code at secure-login.example.,scam,phishing,careshield_synthetic_week1
+m012,email,es,Sus resultados medicos estan disponibles. Ingrese su contrasena en portal-salud.example.,scam,phishing,careshield_synthetic_week1
+m013,sms,en,MEDICARE ALERT: Your new Medicare card is ready. Reply with your Medicare number to activate it.,scam,impersonation,careshield_synthetic_week1
+m014,email,en,Government health benefits notice: Receive free medical equipment by confirming your Medicare ID.,scam,impersonation,careshield_synthetic_week1
+m015,sms,es,AVISO DE MEDICAID: Perdera su cobertura hoy. Verifique sus datos en cobertura-ayuda.example.,scam,impersonation,careshield_synthetic_week1
+m016,sms,en,Appointment reminder: Your clinic visit is scheduled for Monday at 2 PM. Contact your clinic to reschedule.,legitimate,none,careshield_synthetic_week1
+m017,email,en,Your monthly Explanation of Benefits is available through your usual insurance account.,legitimate,none,careshield_synthetic_week1
+m018,sms,en,Your prescription is ready for pickup. Please bring identification to the pharmacy.,legitimate,none,careshield_synthetic_week1
+m019,email,en,Your appointment was successfully canceled. Contact your clinic if you would like to reschedule.,legitimate,none,careshield_synthetic_week1
+m020,sms,es,Recordatorio: Tiene una cita medica el martes. Llame directamente a su clinica si necesita cambiarla.,legitimate,none,careshield_synthetic_week1
