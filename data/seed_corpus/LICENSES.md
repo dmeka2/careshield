@@ -33,3 +33,10 @@ Important:
 - Preserve the original source and label.
 - Review messages for sensitive information.
 - Normalize labels carefully before training.
+## CareShield Week 2 Synthetic Healthcare Corpus
+
+Source: Original fictional messages created for CareShield.
+License: Project MIT License.
+Status: Included.
+Documentation: docs/healthcare-synthetic-sources.md.
+Notes: No real victim messages or patient information.

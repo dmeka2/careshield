@@ -1,0 +1,3782 @@
+[
+  {
+    "id": "syn-scam-insurance_enrollment-en-sms-t01-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your Community Basic health plan was approved. Send your Social Security number within one hour to activate it.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-sms-t01-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your Preferred Choice health plan was approved. Send your Social Security number by tonight to activate it.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-sms-t01-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your Select Plus health plan was approved. Send your Social Security number before tomorrow morning to activate it.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-sms-t02-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Coverage alert: the Community Basic enrollment desk needs your bank card at member-review.example to prevent cancellation within one hour.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-sms-t02-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Coverage alert: the Preferred Choice enrollment desk needs your bank card at benefit-confirm.example to prevent cancellation by tonight.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-sms-t02-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "Coverage alert: the Select Plus enrollment desk needs your bank card at claims-check.example to prevent cancellation before tomorrow morning.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-sms-t03-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Claim a zero-dollar Community Basic policy. Enter your Medicare number at member-review.example within one hour.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-sms-t03-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Claim a zero-dollar Preferred Choice policy. Enter your Medicare number at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-sms-t03-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "Claim a zero-dollar Select Plus policy. Enter your Medicare number at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-sms-t04-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your Marketplace application was suspended. Reply with your one-time login code within one hour to restore Community Basic coverage.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-sms-t04-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your Marketplace application was suspended. Reply with your one-time login code by tonight to restore Preferred Choice coverage.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-sms-t04-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your Marketplace application was suspended. Reply with your one-time login code before tomorrow morning to restore Select Plus coverage.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-sms-t05-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "An agent will secure your Community Basic benefits, but you must wire $175 for mandatory enrollment within one hour.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-sms-t05-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "An agent will secure your Preferred Choice benefits, but you must wire $430 for mandatory enrollment by tonight.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-sms-t05-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "An agent will secure your Select Plus benefits, but you must wire $960 for mandatory enrollment before tomorrow morning.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-email-t01-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Coverage action requested\n\nYour Community Basic health plan was approved. Send your Social Security number within one hour to activate it.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-email-t01-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Coverage action requested\n\nYour Preferred Choice health plan was approved. Send your Social Security number by tonight to activate it.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-email-t01-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Coverage action requested\n\nYour Select Plus health plan was approved. Send your Social Security number before tomorrow morning to activate it.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-email-t02-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Coverage action requested\n\nCoverage alert: the Community Basic enrollment desk needs your bank card at member-review.example to prevent cancellation within one hour.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-email-t02-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Coverage action requested\n\nCoverage alert: the Preferred Choice enrollment desk needs your bank card at benefit-confirm.example to prevent cancellation by tonight.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-email-t02-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Coverage action requested\n\nCoverage alert: the Select Plus enrollment desk needs your bank card at claims-check.example to prevent cancellation before tomorrow morning.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-email-t03-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Coverage action requested\n\nClaim a zero-dollar Community Basic policy. Enter your Medicare number at member-review.example within one hour.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-email-t03-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Coverage action requested\n\nClaim a zero-dollar Preferred Choice policy. Enter your Medicare number at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-email-t03-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Coverage action requested\n\nClaim a zero-dollar Select Plus policy. Enter your Medicare number at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-email-t04-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Coverage action requested\n\nYour Marketplace application was suspended. Reply with your one-time login code within one hour to restore Community Basic coverage.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-email-t04-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Coverage action requested\n\nYour Marketplace application was suspended. Reply with your one-time login code by tonight to restore Preferred Choice coverage.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-email-t04-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Coverage action requested\n\nYour Marketplace application was suspended. Reply with your one-time login code before tomorrow morning to restore Select Plus coverage.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-email-t05-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Coverage action requested\n\nAn agent will secure your Community Basic benefits, but you must wire $175 for mandatory enrollment within one hour.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-email-t05-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Coverage action requested\n\nAn agent will secure your Preferred Choice benefits, but you must wire $430 for mandatory enrollment by tonight.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-en-email-t05-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Coverage action requested\n\nAn agent will secure your Select Plus benefits, but you must wire $960 for mandatory enrollment before tomorrow morning.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-sms-t01-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su plan de salud Community Basic fue aprobado. Envíe su número de Seguro Social en una hora para activarlo.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-sms-t01-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su plan de salud Preferred Choice fue aprobado. Envíe su número de Seguro Social esta noche para activarlo.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-sms-t01-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su plan de salud Select Plus fue aprobado. Envíe su número de Seguro Social antes de mañana para activarlo.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-sms-t02-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Alerta de cobertura: la oficina de Community Basic pide su tarjeta bancaria en member-review.example para evitar la cancelación en una hora.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-sms-t02-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Alerta de cobertura: la oficina de Preferred Choice pide su tarjeta bancaria en benefit-confirm.example para evitar la cancelación esta noche.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-sms-t02-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Alerta de cobertura: la oficina de Select Plus pide su tarjeta bancaria en claims-check.example para evitar la cancelación antes de mañana.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-sms-t03-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Obtenga una póliza Community Basic sin costo. Ingrese su número de Medicare en member-review.example en una hora.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-sms-t03-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Obtenga una póliza Preferred Choice sin costo. Ingrese su número de Medicare en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-sms-t03-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Obtenga una póliza Select Plus sin costo. Ingrese su número de Medicare en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-sms-t04-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su solicitud de seguros fue suspendida. Envíe el código temporal de acceso en una hora para restaurar el plan Community Basic.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-sms-t04-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su solicitud de seguros fue suspendida. Envíe el código temporal de acceso esta noche para restaurar el plan Preferred Choice.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-sms-t04-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su solicitud de seguros fue suspendida. Envíe el código temporal de acceso antes de mañana para restaurar el plan Select Plus.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-sms-t05-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Un agente promete sus beneficios Community Basic, pero debe enviar $175 por transferencia para inscribirse en una hora.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-sms-t05-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Un agente promete sus beneficios Preferred Choice, pero debe enviar $430 por transferencia para inscribirse esta noche.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-sms-t05-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Un agente promete sus beneficios Select Plus, pero debe enviar $960 por transferencia para inscribirse antes de mañana.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-email-t01-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Acción de cobertura\n\nSu plan de salud Community Basic fue aprobado. Envíe su número de Seguro Social en una hora para activarlo.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-email-t01-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Acción de cobertura\n\nSu plan de salud Preferred Choice fue aprobado. Envíe su número de Seguro Social esta noche para activarlo.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-email-t01-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Acción de cobertura\n\nSu plan de salud Select Plus fue aprobado. Envíe su número de Seguro Social antes de mañana para activarlo.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-email-t02-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Acción de cobertura\n\nAlerta de cobertura: la oficina de Community Basic pide su tarjeta bancaria en member-review.example para evitar la cancelación en una hora.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-email-t02-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Acción de cobertura\n\nAlerta de cobertura: la oficina de Preferred Choice pide su tarjeta bancaria en benefit-confirm.example para evitar la cancelación esta noche.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-email-t02-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Acción de cobertura\n\nAlerta de cobertura: la oficina de Select Plus pide su tarjeta bancaria en claims-check.example para evitar la cancelación antes de mañana.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-email-t03-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Acción de cobertura\n\nObtenga una póliza Community Basic sin costo. Ingrese su número de Medicare en member-review.example en una hora.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-email-t03-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Acción de cobertura\n\nObtenga una póliza Preferred Choice sin costo. Ingrese su número de Medicare en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-email-t03-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Acción de cobertura\n\nObtenga una póliza Select Plus sin costo. Ingrese su número de Medicare en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-email-t04-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Acción de cobertura\n\nSu solicitud de seguros fue suspendida. Envíe el código temporal de acceso en una hora para restaurar el plan Community Basic.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-email-t04-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Acción de cobertura\n\nSu solicitud de seguros fue suspendida. Envíe el código temporal de acceso esta noche para restaurar el plan Preferred Choice.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-email-t04-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Acción de cobertura\n\nSu solicitud de seguros fue suspendida. Envíe el código temporal de acceso antes de mañana para restaurar el plan Select Plus.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-email-t05-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Acción de cobertura\n\nUn agente promete sus beneficios Community Basic, pero debe enviar $175 por transferencia para inscribirse en una hora.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-email-t05-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Acción de cobertura\n\nUn agente promete sus beneficios Preferred Choice, pero debe enviar $430 por transferencia para inscribirse esta noche.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-insurance_enrollment-es-email-t05-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Acción de cobertura\n\nUn agente promete sus beneficios Select Plus, pero debe enviar $960 por transferencia para inscribirse antes de mañana.",
+    "label": "scam",
+    "family": "insurance_enrollment",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-sms-t01-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your medical balance of $175 must be paid with gift cards within one hour, or an arrest warrant will follow.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-sms-t01-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your medical balance of $430 must be paid with gift cards by tonight, or an arrest warrant will follow.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-sms-t01-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your medical balance of $960 must be paid with gift cards before tomorrow morning, or an arrest warrant will follow.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-sms-t02-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "A hospital collector demands $175 by bank transfer within one hour and refuses to send written debt verification.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-sms-t02-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "A hospital collector demands $430 by bank transfer by tonight and refuses to send written debt verification.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-sms-t02-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "A hospital collector demands $960 by bank transfer before tomorrow morning and refuses to send written debt verification.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-sms-t03-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "You owe $175 for unknown treatment. Do not contact your clinic; pay at member-review.example within one hour.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-sms-t03-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "You owe $430 for unknown treatment. Do not contact your clinic; pay at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-sms-t03-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "You owe $960 for unknown treatment. Do not contact your clinic; pay at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-sms-t04-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Pay $175 in cryptocurrency within one hour to stop collectors from canceling your benefits.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-sms-t04-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Pay $430 in cryptocurrency by tonight to stop collectors from canceling your benefits.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-sms-t04-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "Pay $960 in cryptocurrency before tomorrow morning to stop collectors from canceling your benefits.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-sms-t05-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "An unpaid medical bill for $175 will be sent to law enforcement unless you use a payment app within one hour.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-sms-t05-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "An unpaid medical bill for $430 will be sent to law enforcement unless you use a payment app by tonight.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-sms-t05-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "An unpaid medical bill for $960 will be sent to law enforcement unless you use a payment app before tomorrow morning.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-email-t01-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Medical balance notice\n\nYour medical balance of $175 must be paid with gift cards within one hour, or an arrest warrant will follow.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-email-t01-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Medical balance notice\n\nYour medical balance of $430 must be paid with gift cards by tonight, or an arrest warrant will follow.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-email-t01-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Medical balance notice\n\nYour medical balance of $960 must be paid with gift cards before tomorrow morning, or an arrest warrant will follow.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-email-t02-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Medical balance notice\n\nA hospital collector demands $175 by bank transfer within one hour and refuses to send written debt verification.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-email-t02-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Medical balance notice\n\nA hospital collector demands $430 by bank transfer by tonight and refuses to send written debt verification.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-email-t02-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Medical balance notice\n\nA hospital collector demands $960 by bank transfer before tomorrow morning and refuses to send written debt verification.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-email-t03-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Medical balance notice\n\nYou owe $175 for unknown treatment. Do not contact your clinic; pay at member-review.example within one hour.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-email-t03-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Medical balance notice\n\nYou owe $430 for unknown treatment. Do not contact your clinic; pay at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-email-t03-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Medical balance notice\n\nYou owe $960 for unknown treatment. Do not contact your clinic; pay at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-email-t04-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Medical balance notice\n\nPay $175 in cryptocurrency within one hour to stop collectors from canceling your benefits.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-email-t04-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Medical balance notice\n\nPay $430 in cryptocurrency by tonight to stop collectors from canceling your benefits.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-email-t04-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Medical balance notice\n\nPay $960 in cryptocurrency before tomorrow morning to stop collectors from canceling your benefits.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-email-t05-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Medical balance notice\n\nAn unpaid medical bill for $175 will be sent to law enforcement unless you use a payment app within one hour.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-email-t05-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Medical balance notice\n\nAn unpaid medical bill for $430 will be sent to law enforcement unless you use a payment app by tonight.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-en-email-t05-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Medical balance notice\n\nAn unpaid medical bill for $960 will be sent to law enforcement unless you use a payment app before tomorrow morning.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-sms-t01-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Debe pagar la deuda médica de $175 con tarjetas de regalo en una hora o emitiremos una orden de arresto.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-sms-t01-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Debe pagar la deuda médica de $430 con tarjetas de regalo esta noche o emitiremos una orden de arresto.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-sms-t01-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Debe pagar la deuda médica de $960 con tarjetas de regalo antes de mañana o emitiremos una orden de arresto.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-sms-t02-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Un cobrador hospitalario exige $175 por transferencia en una hora y se niega a verificar la deuda por escrito.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-sms-t02-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Un cobrador hospitalario exige $430 por transferencia esta noche y se niega a verificar la deuda por escrito.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-sms-t02-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Un cobrador hospitalario exige $960 por transferencia antes de mañana y se niega a verificar la deuda por escrito.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-sms-t03-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Debe $175 por un tratamiento desconocido. No llame a la clínica; pague en member-review.example en una hora.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-sms-t03-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Debe $430 por un tratamiento desconocido. No llame a la clínica; pague en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-sms-t03-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Debe $960 por un tratamiento desconocido. No llame a la clínica; pague en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-sms-t04-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Pague $175 en criptomonedas en una hora para evitar que le quiten sus beneficios.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-sms-t04-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Pague $430 en criptomonedas esta noche para evitar que le quiten sus beneficios.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-sms-t04-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Pague $960 en criptomonedas antes de mañana para evitar que le quiten sus beneficios.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-sms-t05-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Una factura médica de $175 será enviada a la policía si no paga por una aplicación en una hora.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-sms-t05-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Una factura médica de $430 será enviada a la policía si no paga por una aplicación esta noche.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-sms-t05-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Una factura médica de $960 será enviada a la policía si no paga por una aplicación antes de mañana.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-email-t01-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de deuda médica\n\nDebe pagar la deuda médica de $175 con tarjetas de regalo en una hora o emitiremos una orden de arresto.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-email-t01-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de deuda médica\n\nDebe pagar la deuda médica de $430 con tarjetas de regalo esta noche o emitiremos una orden de arresto.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-email-t01-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de deuda médica\n\nDebe pagar la deuda médica de $960 con tarjetas de regalo antes de mañana o emitiremos una orden de arresto.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-email-t02-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de deuda médica\n\nUn cobrador hospitalario exige $175 por transferencia en una hora y se niega a verificar la deuda por escrito.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-email-t02-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de deuda médica\n\nUn cobrador hospitalario exige $430 por transferencia esta noche y se niega a verificar la deuda por escrito.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-email-t02-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de deuda médica\n\nUn cobrador hospitalario exige $960 por transferencia antes de mañana y se niega a verificar la deuda por escrito.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-email-t03-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de deuda médica\n\nDebe $175 por un tratamiento desconocido. No llame a la clínica; pague en member-review.example en una hora.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-email-t03-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de deuda médica\n\nDebe $430 por un tratamiento desconocido. No llame a la clínica; pague en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-email-t03-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de deuda médica\n\nDebe $960 por un tratamiento desconocido. No llame a la clínica; pague en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-email-t04-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de deuda médica\n\nPague $175 en criptomonedas en una hora para evitar que le quiten sus beneficios.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-email-t04-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de deuda médica\n\nPague $430 en criptomonedas esta noche para evitar que le quiten sus beneficios.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-email-t04-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de deuda médica\n\nPague $960 en criptomonedas antes de mañana para evitar que le quiten sus beneficios.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-email-t05-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de deuda médica\n\nUna factura médica de $175 será enviada a la policía si no paga por una aplicación en una hora.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-email-t05-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de deuda médica\n\nUna factura médica de $430 será enviada a la policía si no paga por una aplicación esta noche.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-medical_debt-es-email-t05-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de deuda médica\n\nUna factura médica de $960 será enviada a la policía si no paga por una aplicación antes de mañana.",
+    "label": "scam",
+    "family": "medical_debt",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-sms-t01-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your prescription order is held. Enter your portal password at member-review.example within one hour to release it.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-sms-t01-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your prescription order is held. Enter your portal password at benefit-confirm.example by tonight to release it.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-sms-t01-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your prescription order is held. Enter your portal password at claims-check.example before tomorrow morning to release it.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-sms-t02-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Buy prescription medicine without a doctor's prescription for $175. Pay using gift cards within one hour.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-sms-t02-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Buy prescription medicine without a doctor's prescription for $430. Pay using gift cards by tonight.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-sms-t02-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "Buy prescription medicine without a doctor's prescription for $960. Pay using gift cards before tomorrow morning.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-sms-t03-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your discount medication is reserved; share a credit-card verification code at member-review.example within one hour.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-sms-t03-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your discount medication is reserved; share a credit-card verification code at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-sms-t03-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your discount medication is reserved; share a credit-card verification code at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-sms-t04-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Limited pharmacy offer: prescription refills for $175, no doctor needed. Pay in cryptocurrency within one hour.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-sms-t04-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Limited pharmacy offer: prescription refills for $430, no doctor needed. Pay in cryptocurrency by tonight.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-sms-t04-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "Limited pharmacy offer: prescription refills for $960, no doctor needed. Pay in cryptocurrency before tomorrow morning.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-sms-t05-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your medication delivery is blocked. Upload an ID photo and payment card at member-review.example within one hour.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-sms-t05-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your medication delivery is blocked. Upload an ID photo and payment card at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-sms-t05-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your medication delivery is blocked. Upload an ID photo and payment card at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-email-t01-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nYour prescription order is held. Enter your portal password at member-review.example within one hour to release it.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-email-t01-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nYour prescription order is held. Enter your portal password at benefit-confirm.example by tonight to release it.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-email-t01-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nYour prescription order is held. Enter your portal password at claims-check.example before tomorrow morning to release it.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-email-t02-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nBuy prescription medicine without a doctor's prescription for $175. Pay using gift cards within one hour.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-email-t02-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nBuy prescription medicine without a doctor's prescription for $430. Pay using gift cards by tonight.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-email-t02-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nBuy prescription medicine without a doctor's prescription for $960. Pay using gift cards before tomorrow morning.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-email-t03-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nYour discount medication is reserved; share a credit-card verification code at member-review.example within one hour.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-email-t03-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nYour discount medication is reserved; share a credit-card verification code at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-email-t03-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nYour discount medication is reserved; share a credit-card verification code at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-email-t04-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nLimited pharmacy offer: prescription refills for $175, no doctor needed. Pay in cryptocurrency within one hour.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-email-t04-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nLimited pharmacy offer: prescription refills for $430, no doctor needed. Pay in cryptocurrency by tonight.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-email-t04-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nLimited pharmacy offer: prescription refills for $960, no doctor needed. Pay in cryptocurrency before tomorrow morning.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-email-t05-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nYour medication delivery is blocked. Upload an ID photo and payment card at member-review.example within one hour.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-email-t05-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nYour medication delivery is blocked. Upload an ID photo and payment card at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-en-email-t05-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nYour medication delivery is blocked. Upload an ID photo and payment card at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-sms-t01-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su pedido de farmacia está retenido. Ingrese la contraseña de su portal en member-review.example en una hora para liberarlo.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-sms-t01-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su pedido de farmacia está retenido. Ingrese la contraseña de su portal en benefit-confirm.example esta noche para liberarlo.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-sms-t01-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su pedido de farmacia está retenido. Ingrese la contraseña de su portal en claims-check.example antes de mañana para liberarlo.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-sms-t02-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Compre medicamentos recetados sin receta médica por $175. Pague con tarjetas de regalo en una hora.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-sms-t02-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Compre medicamentos recetados sin receta médica por $430. Pague con tarjetas de regalo esta noche.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-sms-t02-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Compre medicamentos recetados sin receta médica por $960. Pague con tarjetas de regalo antes de mañana.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-sms-t03-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su medicamento con descuento está reservado; envíe su código de tarjeta en member-review.example en una hora.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-sms-t03-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su medicamento con descuento está reservado; envíe su código de tarjeta en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-sms-t03-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su medicamento con descuento está reservado; envíe su código de tarjeta en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-sms-t04-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Oferta limitada: resurtidos de recetas por $175, sin médico. Pague con criptomonedas en una hora.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-sms-t04-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Oferta limitada: resurtidos de recetas por $430, sin médico. Pague con criptomonedas esta noche.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-sms-t04-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Oferta limitada: resurtidos de recetas por $960, sin médico. Pague con criptomonedas antes de mañana.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-sms-t05-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "La entrega de sus medicamentos está bloqueada. Suba foto de su identificación y tarjeta en member-review.example en una hora.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-sms-t05-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "La entrega de sus medicamentos está bloqueada. Suba foto de su identificación y tarjeta en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-sms-t05-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "La entrega de sus medicamentos está bloqueada. Suba foto de su identificación y tarjeta en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-email-t01-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nSu pedido de farmacia está retenido. Ingrese la contraseña de su portal en member-review.example en una hora para liberarlo.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-email-t01-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nSu pedido de farmacia está retenido. Ingrese la contraseña de su portal en benefit-confirm.example esta noche para liberarlo.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-email-t01-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nSu pedido de farmacia está retenido. Ingrese la contraseña de su portal en claims-check.example antes de mañana para liberarlo.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-email-t02-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nCompre medicamentos recetados sin receta médica por $175. Pague con tarjetas de regalo en una hora.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-email-t02-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nCompre medicamentos recetados sin receta médica por $430. Pague con tarjetas de regalo esta noche.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-email-t02-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nCompre medicamentos recetados sin receta médica por $960. Pague con tarjetas de regalo antes de mañana.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-email-t03-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nSu medicamento con descuento está reservado; envíe su código de tarjeta en member-review.example en una hora.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-email-t03-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nSu medicamento con descuento está reservado; envíe su código de tarjeta en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-email-t03-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nSu medicamento con descuento está reservado; envíe su código de tarjeta en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-email-t04-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nOferta limitada: resurtidos de recetas por $175, sin médico. Pague con criptomonedas en una hora.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-email-t04-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nOferta limitada: resurtidos de recetas por $430, sin médico. Pague con criptomonedas esta noche.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-email-t04-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nOferta limitada: resurtidos de recetas por $960, sin médico. Pague con criptomonedas antes de mañana.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-email-t05-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nLa entrega de sus medicamentos está bloqueada. Suba foto de su identificación y tarjeta en member-review.example en una hora.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-email-t05-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nLa entrega de sus medicamentos está bloqueada. Suba foto de su identificación y tarjeta en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-pharmacy-es-email-t05-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nLa entrega de sus medicamentos está bloqueada. Suba foto de su identificación y tarjeta en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "pharmacy",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-sms-t01-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "New lab results are ready. Enter your patient portal password at member-review.example within one hour.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-sms-t01-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "New lab results are ready. Enter your patient portal password at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-sms-t01-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "New lab results are ready. Enter your patient portal password at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-sms-t02-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your patient portal will close within one hour; reply with the security code sent to your phone.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-sms-t02-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your patient portal will close by tonight; reply with the security code sent to your phone.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-sms-t02-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your patient portal will close before tomorrow morning; reply with the security code sent to your phone.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-sms-t03-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Appointment payment failed. Submit your bank login details at member-review.example within one hour.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-sms-t03-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Appointment payment failed. Submit your bank login details at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-sms-t03-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "Appointment payment failed. Submit your bank login details at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-sms-t04-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "A health record was shared with you. Enter your email account password at member-review.example within one hour.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-sms-t04-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "A health record was shared with you. Enter your email account password at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-sms-t04-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "A health record was shared with you. Enter your email account password at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-sms-t05-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "A clinic security team needs your one-time verification code within one hour to prevent deletion of your records at member-review.example.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-sms-t05-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "A clinic security team needs your one-time verification code by tonight to prevent deletion of your records at benefit-confirm.example.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-sms-t05-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "A clinic security team needs your one-time verification code before tomorrow morning to prevent deletion of your records at claims-check.example.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-email-t01-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Patient account notice\n\nNew lab results are ready. Enter your patient portal password at member-review.example within one hour.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-email-t01-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Patient account notice\n\nNew lab results are ready. Enter your patient portal password at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-email-t01-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Patient account notice\n\nNew lab results are ready. Enter your patient portal password at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-email-t02-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Patient account notice\n\nYour patient portal will close within one hour; reply with the security code sent to your phone.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-email-t02-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Patient account notice\n\nYour patient portal will close by tonight; reply with the security code sent to your phone.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-email-t02-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Patient account notice\n\nYour patient portal will close before tomorrow morning; reply with the security code sent to your phone.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-email-t03-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Patient account notice\n\nAppointment payment failed. Submit your bank login details at member-review.example within one hour.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-email-t03-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Patient account notice\n\nAppointment payment failed. Submit your bank login details at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-email-t03-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Patient account notice\n\nAppointment payment failed. Submit your bank login details at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-email-t04-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Patient account notice\n\nA health record was shared with you. Enter your email account password at member-review.example within one hour.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-email-t04-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Patient account notice\n\nA health record was shared with you. Enter your email account password at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-email-t04-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Patient account notice\n\nA health record was shared with you. Enter your email account password at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-email-t05-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Patient account notice\n\nA clinic security team needs your one-time verification code within one hour to prevent deletion of your records at member-review.example.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-email-t05-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Patient account notice\n\nA clinic security team needs your one-time verification code by tonight to prevent deletion of your records at benefit-confirm.example.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-en-email-t05-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Patient account notice\n\nA clinic security team needs your one-time verification code before tomorrow morning to prevent deletion of your records at claims-check.example.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-sms-t01-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Sus nuevos resultados médicos están listos. Ingrese la contraseña del portal en member-review.example en una hora.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-sms-t01-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Sus nuevos resultados médicos están listos. Ingrese la contraseña del portal en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-sms-t01-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Sus nuevos resultados médicos están listos. Ingrese la contraseña del portal en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-sms-t02-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su portal de pacientes cerrara en una hora; responda con el código de seguridad recibido por texto.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-sms-t02-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su portal de pacientes cerrara esta noche; responda con el código de seguridad recibido por texto.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-sms-t02-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su portal de pacientes cerrara antes de mañana; responda con el código de seguridad recibido por texto.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-sms-t03-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Fallo el pago de una cita. Ingrese las credenciales bancarias en member-review.example en una hora.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-sms-t03-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Fallo el pago de una cita. Ingrese las credenciales bancarias en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-sms-t03-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Fallo el pago de una cita. Ingrese las credenciales bancarias en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-sms-t04-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Compartieron su expediente médico. Introduzca la contraseña de su correo en member-review.example en una hora.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-sms-t04-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Compartieron su expediente médico. Introduzca la contraseña de su correo en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-sms-t04-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Compartieron su expediente médico. Introduzca la contraseña de su correo en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-sms-t05-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "El equipo de seguridad de su clínica exige un código temporal en una hora para no borrar sus archivos en member-review.example.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-sms-t05-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "El equipo de seguridad de su clínica exige un código temporal esta noche para no borrar sus archivos en benefit-confirm.example.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-sms-t05-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "El equipo de seguridad de su clínica exige un código temporal antes de mañana para no borrar sus archivos en claims-check.example.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-email-t01-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de cuenta de paciente\n\nSus nuevos resultados médicos están listos. Ingrese la contraseña del portal en member-review.example en una hora.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-email-t01-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de cuenta de paciente\n\nSus nuevos resultados médicos están listos. Ingrese la contraseña del portal en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-email-t01-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de cuenta de paciente\n\nSus nuevos resultados médicos están listos. Ingrese la contraseña del portal en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-email-t02-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de cuenta de paciente\n\nSu portal de pacientes cerrara en una hora; responda con el código de seguridad recibido por texto.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-email-t02-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de cuenta de paciente\n\nSu portal de pacientes cerrara esta noche; responda con el código de seguridad recibido por texto.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-email-t02-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de cuenta de paciente\n\nSu portal de pacientes cerrara antes de mañana; responda con el código de seguridad recibido por texto.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-email-t03-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de cuenta de paciente\n\nFallo el pago de una cita. Ingrese las credenciales bancarias en member-review.example en una hora.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-email-t03-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de cuenta de paciente\n\nFallo el pago de una cita. Ingrese las credenciales bancarias en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-email-t03-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de cuenta de paciente\n\nFallo el pago de una cita. Ingrese las credenciales bancarias en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-email-t04-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de cuenta de paciente\n\nCompartieron su expediente médico. Introduzca la contraseña de su correo en member-review.example en una hora.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-email-t04-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de cuenta de paciente\n\nCompartieron su expediente médico. Introduzca la contraseña de su correo en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-email-t04-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de cuenta de paciente\n\nCompartieron su expediente médico. Introduzca la contraseña de su correo en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-email-t05-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de cuenta de paciente\n\nEl equipo de seguridad de su clínica exige un código temporal en una hora para no borrar sus archivos en member-review.example.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-email-t05-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de cuenta de paciente\n\nEl equipo de seguridad de su clínica exige un código temporal esta noche para no borrar sus archivos en benefit-confirm.example.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-phishing-es-email-t05-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de cuenta de paciente\n\nEl equipo de seguridad de su clínica exige un código temporal antes de mañana para no borrar sus archivos en claims-check.example.",
+    "label": "scam",
+    "family": "phishing",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-sms-t01-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Medicare card replacement required. Send your Medicare number at member-review.example within one hour.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-sms-t01-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Medicare card replacement required. Send your Medicare number at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-sms-t01-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "Medicare card replacement required. Send your Medicare number at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-sms-t02-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "HHS benefits office offers a free screening kit. Reply with your Medicare ID within one hour.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-sms-t02-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "HHS benefits office offers a free medical test. Reply with your Medicare ID by tonight.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-sms-t02-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "HHS benefits office offers a free medical device. Reply with your Medicare ID before tomorrow morning.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-sms-t03-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "State Medicaid alert: you will lose coverage within one hour unless you send your Social Security number.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-sms-t03-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "State Medicaid alert: you will lose coverage by tonight unless you send your Social Security number.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-sms-t03-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "State Medicaid alert: you will lose coverage before tomorrow morning unless you send your Social Security number.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-sms-t04-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your provider's billing office wants a photo of your ID and payment card at member-review.example within one hour.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-sms-t04-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your provider's billing office wants a photo of your ID and payment card at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-sms-t04-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your provider's billing office wants a photo of your ID and payment card at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-sms-t05-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "A government health representative offers a free screening kit if you confirm your Medicare number within one hour.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-sms-t05-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "A government health representative offers a free medical test if you confirm your Medicare number by tonight.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-sms-t05-v03",
+    "channel": "sms",
+    "language": "en",
+    "text": "A government health representative offers a free medical device if you confirm your Medicare number before tomorrow morning.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-email-t01-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Benefits notification\n\nMedicare card replacement required. Send your Medicare number at member-review.example within one hour.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-email-t01-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Benefits notification\n\nMedicare card replacement required. Send your Medicare number at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-email-t01-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Benefits notification\n\nMedicare card replacement required. Send your Medicare number at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-email-t02-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Benefits notification\n\nHHS benefits office offers a free screening kit. Reply with your Medicare ID within one hour.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-email-t02-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Benefits notification\n\nHHS benefits office offers a free medical test. Reply with your Medicare ID by tonight.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-email-t02-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Benefits notification\n\nHHS benefits office offers a free medical device. Reply with your Medicare ID before tomorrow morning.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-email-t03-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Benefits notification\n\nState Medicaid alert: you will lose coverage within one hour unless you send your Social Security number.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-email-t03-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Benefits notification\n\nState Medicaid alert: you will lose coverage by tonight unless you send your Social Security number.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-email-t03-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Benefits notification\n\nState Medicaid alert: you will lose coverage before tomorrow morning unless you send your Social Security number.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-email-t04-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Benefits notification\n\nYour provider's billing office wants a photo of your ID and payment card at member-review.example within one hour.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-email-t04-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Benefits notification\n\nYour provider's billing office wants a photo of your ID and payment card at benefit-confirm.example by tonight.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-email-t04-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Benefits notification\n\nYour provider's billing office wants a photo of your ID and payment card at claims-check.example before tomorrow morning.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-email-t05-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Benefits notification\n\nA government health representative offers a free screening kit if you confirm your Medicare number within one hour.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-email-t05-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Benefits notification\n\nA government health representative offers a free medical test if you confirm your Medicare number by tonight.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-en-email-t05-v03",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Benefits notification\n\nA government health representative offers a free medical device if you confirm your Medicare number before tomorrow morning.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-sms-t01-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Se requiere reemplazar su tarjeta Medicare. Envíe su número de Medicare en member-review.example en una hora.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-sms-t01-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Se requiere reemplazar su tarjeta Medicare. Envíe su número de Medicare en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-sms-t01-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Se requiere reemplazar su tarjeta Medicare. Envíe su número de Medicare en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-sms-t02-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "La oficina de beneficios de HHS ofrece gratis un kit de prueba. Responda con su número de Medicare en una hora.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-sms-t02-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "La oficina de beneficios de HHS ofrece gratis un examen médico. Responda con su número de Medicare esta noche.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-sms-t02-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "La oficina de beneficios de HHS ofrece gratis un dispositivo médico. Responda con su número de Medicare antes de mañana.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-sms-t03-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Alerta de Medicaid: perderá su cobertura en una hora si no envia su número de Seguro Social.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-sms-t03-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Alerta de Medicaid: perderá su cobertura esta noche si no envia su número de Seguro Social.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-sms-t03-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Alerta de Medicaid: perderá su cobertura antes de mañana si no envia su número de Seguro Social.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-sms-t04-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "La oficina de cobros de su médico exige foto de su identificación y tarjeta en member-review.example en una hora.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-sms-t04-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "La oficina de cobros de su médico exige foto de su identificación y tarjeta en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-sms-t04-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "La oficina de cobros de su médico exige foto de su identificación y tarjeta en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-sms-t05-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Un representante de salud del gobierno ofrece un kit de prueba gratis si confirma su número de Medicare en una hora.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-sms-t05-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Un representante de salud del gobierno ofrece un examen médico gratis si confirma su número de Medicare esta noche.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-sms-t05-v03",
+    "channel": "sms",
+    "language": "es",
+    "text": "Un representante de salud del gobierno ofrece un dispositivo médico gratis si confirma su número de Medicare antes de mañana.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-email-t01-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Notificación de beneficios\n\nSe requiere reemplazar su tarjeta Medicare. Envíe su número de Medicare en member-review.example en una hora.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-email-t01-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Notificación de beneficios\n\nSe requiere reemplazar su tarjeta Medicare. Envíe su número de Medicare en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-email-t01-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Notificación de beneficios\n\nSe requiere reemplazar su tarjeta Medicare. Envíe su número de Medicare en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-email-t02-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Notificación de beneficios\n\nLa oficina de beneficios de HHS ofrece gratis un kit de prueba. Responda con su número de Medicare en una hora.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-email-t02-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Notificación de beneficios\n\nLa oficina de beneficios de HHS ofrece gratis un examen médico. Responda con su número de Medicare esta noche.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-email-t02-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Notificación de beneficios\n\nLa oficina de beneficios de HHS ofrece gratis un dispositivo médico. Responda con su número de Medicare antes de mañana.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-email-t03-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Notificación de beneficios\n\nAlerta de Medicaid: perderá su cobertura en una hora si no envia su número de Seguro Social.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-email-t03-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Notificación de beneficios\n\nAlerta de Medicaid: perderá su cobertura esta noche si no envia su número de Seguro Social.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-email-t03-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Notificación de beneficios\n\nAlerta de Medicaid: perderá su cobertura antes de mañana si no envia su número de Seguro Social.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-email-t04-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Notificación de beneficios\n\nLa oficina de cobros de su médico exige foto de su identificación y tarjeta en member-review.example en una hora.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-email-t04-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Notificación de beneficios\n\nLa oficina de cobros de su médico exige foto de su identificación y tarjeta en benefit-confirm.example esta noche.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-email-t04-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Notificación de beneficios\n\nLa oficina de cobros de su médico exige foto de su identificación y tarjeta en claims-check.example antes de mañana.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-email-t05-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Notificación de beneficios\n\nUn representante de salud del gobierno ofrece un kit de prueba gratis si confirma su número de Medicare en una hora.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-email-t05-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Notificación de beneficios\n\nUn representante de salud del gobierno ofrece un examen médico gratis si confirma su número de Medicare esta noche.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-scam-impersonation-es-email-t05-v03",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Notificación de beneficios\n\nUn representante de salud del gobierno ofrece un dispositivo médico gratis si confirma su número de Medicare antes de mañana.",
+    "label": "scam",
+    "family": "impersonation",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-en-sms-t01-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Appointment reminder: your visit at your regular clinic is on Monday at 2:00 PM. Call your usual number to reschedule.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-en-sms-t01-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Appointment reminder: your visit at your usual care office is on Thursday at 9:30 AM. Call your usual number to reschedule.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-en-sms-t02-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your appointment for Monday at 2:00 PM is confirmed. Review details using your established patient portal.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-en-sms-t02-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your appointment for Thursday at 9:30 AM is confirmed. Review details using your established patient portal.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-en-sms-t03-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "If the Monday visit no longer works, contact your regular clinic through its regular phone number.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-en-sms-t03-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "If the Thursday visit no longer works, contact your usual care office through its regular phone number.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-en-email-t01-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Appointment information\n\nAppointment reminder: your visit at your regular clinic is on Monday at 2:00 PM. Call your usual number to reschedule.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-en-email-t01-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Appointment information\n\nAppointment reminder: your visit at your usual care office is on Thursday at 9:30 AM. Call your usual number to reschedule.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-en-email-t02-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Appointment information\n\nYour appointment for Monday at 2:00 PM is confirmed. Review details using your established patient portal.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-en-email-t02-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Appointment information\n\nYour appointment for Thursday at 9:30 AM is confirmed. Review details using your established patient portal.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-en-email-t03-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Appointment information\n\nIf the Monday visit no longer works, contact your regular clinic through its regular phone number.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-en-email-t03-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Appointment information\n\nIf the Thursday visit no longer works, contact your usual care office through its regular phone number.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-es-sms-t01-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Recordatorio: su cita en su clínica habitual es el lunes a las 14:00. Llame al número habitual para cambiarla.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-es-sms-t01-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Recordatorio: su cita en su consultorio habitual es el jueves a las 09:30. Llame al número habitual para cambiarla.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-es-sms-t02-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su cita del lunes a las 14:00 está confirmada. Revise los detalles en su portal habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-es-sms-t02-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su cita del jueves a las 09:30 está confirmada. Revise los detalles en su portal habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-es-sms-t03-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Si no puede asistir el lunes, llame a su clínica habitual mediante su número telefonico habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-es-sms-t03-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Si no puede asistir el jueves, llame a su consultorio habitual mediante su número telefonico habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-es-email-t01-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Información de cita\n\nRecordatorio: su cita en su clínica habitual es el lunes a las 14:00. Llame al número habitual para cambiarla.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-es-email-t01-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Información de cita\n\nRecordatorio: su cita en su consultorio habitual es el jueves a las 09:30. Llame al número habitual para cambiarla.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-es-email-t02-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Información de cita\n\nSu cita del lunes a las 14:00 está confirmada. Revise los detalles en su portal habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-es-email-t02-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Información de cita\n\nSu cita del jueves a las 09:30 está confirmada. Revise los detalles en su portal habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-es-email-t03-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Información de cita\n\nSi no puede asistir el lunes, llame a su clínica habitual mediante su número telefonico habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-appointment-es-email-t03-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Información de cita\n\nSi no puede asistir el jueves, llame a su consultorio habitual mediante su número telefonico habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-en-sms-t01-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your refill request at your regular clinic was received for pickup on Monday. We will send an update when ready.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-en-sms-t01-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your refill request at your usual care office was received for pickup on Thursday. We will send an update when ready.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-en-sms-t02-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your prescription pickup is planned for Monday after 2:00 PM. Contact your usual pharmacy with questions.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-en-sms-t02-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your prescription pickup is planned for Thursday after 9:30 AM. Contact your usual pharmacy with questions.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-en-sms-t03-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "A routine medication review is booked for Monday at 2:00 PM. No payment or password is requested in this reminder.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-en-sms-t03-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "A routine medication review is booked for Thursday at 9:30 AM. No payment or password is requested in this reminder.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-en-email-t01-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nYour refill request at your regular clinic was received for pickup on Monday. We will send an update when ready.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-en-email-t01-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nYour refill request at your usual care office was received for pickup on Thursday. We will send an update when ready.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-en-email-t02-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nYour prescription pickup is planned for Monday after 2:00 PM. Contact your usual pharmacy with questions.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-en-email-t02-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nYour prescription pickup is planned for Thursday after 9:30 AM. Contact your usual pharmacy with questions.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-en-email-t03-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nA routine medication review is booked for Monday at 2:00 PM. No payment or password is requested in this reminder.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-en-email-t03-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Pharmacy update\n\nA routine medication review is booked for Thursday at 9:30 AM. No payment or password is requested in this reminder.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-es-sms-t01-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Recibimos su solicitud de receta en su clínica habitual para el lunes. Enviaremos otro aviso cuando esté lista.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-es-sms-t01-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Recibimos su solicitud de receta en su consultorio habitual para el jueves. Enviaremos otro aviso cuando esté lista.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-es-sms-t02-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su receta estara disponible el lunes despues de las 14:00. Consulte a su farmacia habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-es-sms-t02-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su receta estara disponible el jueves despues de las 09:30. Consulte a su farmacia habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-es-sms-t03-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Tiene una revisión rutinaria de medicamentos el lunes a las 14:00. Este aviso no pide dinero ni contraseñas.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-es-sms-t03-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Tiene una revisión rutinaria de medicamentos el jueves a las 09:30. Este aviso no pide dinero ni contraseñas.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-es-email-t01-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nRecibimos su solicitud de receta en su clínica habitual para el lunes. Enviaremos otro aviso cuando esté lista.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-es-email-t01-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nRecibimos su solicitud de receta en su consultorio habitual para el jueves. Enviaremos otro aviso cuando esté lista.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-es-email-t02-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nSu receta estara disponible el lunes despues de las 14:00. Consulte a su farmacia habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-es-email-t02-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nSu receta estara disponible el jueves despues de las 09:30. Consulte a su farmacia habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-es-email-t03-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nTiene una revisión rutinaria de medicamentos el lunes a las 14:00. Este aviso no pide dinero ni contraseñas.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-pharmacy-es-email-t03-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Aviso de farmacia\n\nTiene una revisión rutinaria de medicamentos el jueves a las 09:30. Este aviso no pide dinero ni contraseñas.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-en-sms-t01-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your Explanation of Benefits for Monday is available through your usual insurance account. This is not a bill.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-en-sms-t01-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your Explanation of Benefits for Thursday is available through your usual insurance account. This is not a bill.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-en-sms-t02-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your Monday coverage summary has been mailed. Call the number printed on your member card with questions.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-en-sms-t02-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your Thursday coverage summary has been mailed. Call the number printed on your member card with questions.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-en-sms-t03-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your routine insurance review is scheduled for Monday. Consult your existing policy documents for details.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-en-sms-t03-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your routine insurance review is scheduled for Thursday. Consult your existing policy documents for details.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-en-email-t01-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Insurance information\n\nYour Explanation of Benefits for Monday is available through your usual insurance account. This is not a bill.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-en-email-t01-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Insurance information\n\nYour Explanation of Benefits for Thursday is available through your usual insurance account. This is not a bill.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-en-email-t02-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Insurance information\n\nYour Monday coverage summary has been mailed. Call the number printed on your member card with questions.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-en-email-t02-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Insurance information\n\nYour Thursday coverage summary has been mailed. Call the number printed on your member card with questions.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-en-email-t03-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Insurance information\n\nYour routine insurance review is scheduled for Monday. Consult your existing policy documents for details.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-en-email-t03-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Insurance information\n\nYour routine insurance review is scheduled for Thursday. Consult your existing policy documents for details.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-es-sms-t01-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su explicación de beneficios del lunes está en su cuenta de seguro habitual. Esto no es una factura.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-es-sms-t01-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su explicación de beneficios del jueves está en su cuenta de seguro habitual. Esto no es una factura.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-es-sms-t02-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su resumen de cobertura del lunes fue enviado por correo. Llame al número impreso en su tarjeta.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-es-sms-t02-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su resumen de cobertura del jueves fue enviado por correo. Llame al número impreso en su tarjeta.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-es-sms-t03-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su revisión habitual del seguro es el lunes. Consulte los documentos de su póliza actual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-es-sms-t03-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su revisión habitual del seguro es el jueves. Consulte los documentos de su póliza actual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-es-email-t01-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Información de seguro\n\nSu explicación de beneficios del lunes está en su cuenta de seguro habitual. Esto no es una factura.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-es-email-t01-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Información de seguro\n\nSu explicación de beneficios del jueves está en su cuenta de seguro habitual. Esto no es una factura.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-es-email-t02-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Información de seguro\n\nSu resumen de cobertura del lunes fue enviado por correo. Llame al número impreso en su tarjeta.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-es-email-t02-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Información de seguro\n\nSu resumen de cobertura del jueves fue enviado por correo. Llame al número impreso en su tarjeta.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-es-email-t03-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Información de seguro\n\nSu revisión habitual del seguro es el lunes. Consulte los documentos de su póliza actual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-insurance-es-email-t03-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Información de seguro\n\nSu revisión habitual del seguro es el jueves. Consulte los documentos de su póliza actual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-en-sms-t01-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "A billing statement for your Monday visit is available in your established patient portal.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-en-sms-t01-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "A billing statement for your Thursday visit is available in your established patient portal.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-en-sms-t02-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your clinic payment receipt dated Monday was posted. No additional payment is requested in this notice.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-en-sms-t02-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your clinic payment receipt dated Thursday was posted. No additional payment is requested in this notice.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-en-sms-t03-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Questions about the bill from Monday? Call the number shown on your original clinic statement.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-en-sms-t03-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Questions about the bill from Thursday? Call the number shown on your original clinic statement.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-en-email-t01-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Billing update\n\nA billing statement for your Monday visit is available in your established patient portal.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-en-email-t01-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Billing update\n\nA billing statement for your Thursday visit is available in your established patient portal.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-en-email-t02-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Billing update\n\nYour clinic payment receipt dated Monday was posted. No additional payment is requested in this notice.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-en-email-t02-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Billing update\n\nYour clinic payment receipt dated Thursday was posted. No additional payment is requested in this notice.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-en-email-t03-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Billing update\n\nQuestions about the bill from Monday? Call the number shown on your original clinic statement.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-en-email-t03-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Billing update\n\nQuestions about the bill from Thursday? Call the number shown on your original clinic statement.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-es-sms-t01-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "El estado de cuenta de su cita del lunes está en su portal habitual de pacientes.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-es-sms-t01-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "El estado de cuenta de su cita del jueves está en su portal habitual de pacientes.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-es-sms-t02-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Se registró su recibo de pago de la clínica del lunes. Este aviso no solicita otro pago.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-es-sms-t02-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Se registró su recibo de pago de la clínica del jueves. Este aviso no solicita otro pago.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-es-sms-t03-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "¿Tiene preguntas sobre la factura del lunes? Llame al número de su factura original.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-es-sms-t03-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "¿Tiene preguntas sobre la factura del jueves? Llame al número de su factura original.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-es-email-t01-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Actualización de facturacion\n\nEl estado de cuenta de su cita del lunes está en su portal habitual de pacientes.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-es-email-t01-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Actualización de facturacion\n\nEl estado de cuenta de su cita del jueves está en su portal habitual de pacientes.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-es-email-t02-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Actualización de facturacion\n\nSe registró su recibo de pago de la clínica del lunes. Este aviso no solicita otro pago.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-es-email-t02-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Actualización de facturacion\n\nSe registró su recibo de pago de la clínica del jueves. Este aviso no solicita otro pago.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-es-email-t03-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Actualización de facturacion\n\n¿Tiene preguntas sobre la factura del lunes? Llame al número de su factura original.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-billing-es-email-t03-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Actualización de facturacion\n\n¿Tiene preguntas sobre la factura del jueves? Llame al número de su factura original.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-en-sms-t01-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your lab results from Monday are available in your normal patient portal at portal-care.example.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-en-sms-t01-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your lab results from Thursday are available in your normal patient portal at portal-care.example.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-en-sms-t02-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "A routine lab follow-up at your regular clinic is set for Monday at 2:00 PM. Use your regular phone number for changes.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-en-sms-t02-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "A routine lab follow-up at your usual care office is set for Thursday at 9:30 AM. Use your regular phone number for changes.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-en-sms-t03-v01",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your clinician posted a record update for Monday. Use your usual portal or contact your regular clinic directly.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-en-sms-t03-v02",
+    "channel": "sms",
+    "language": "en",
+    "text": "Your clinician posted a record update for Thursday. Use your usual portal or contact your usual care office directly.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-en-email-t01-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Lab update\n\nYour lab results from Monday are available in your normal patient portal at portal-care.example.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-en-email-t01-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Lab update\n\nYour lab results from Thursday are available in your normal patient portal at portal-care.example.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-en-email-t02-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Lab update\n\nA routine lab follow-up at your regular clinic is set for Monday at 2:00 PM. Use your regular phone number for changes.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-en-email-t02-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Lab update\n\nA routine lab follow-up at your usual care office is set for Thursday at 9:30 AM. Use your regular phone number for changes.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-en-email-t03-v01",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Lab update\n\nYour clinician posted a record update for Monday. Use your usual portal or contact your regular clinic directly.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-en-email-t03-v02",
+    "channel": "email",
+    "language": "en",
+    "text": "Subject: Lab update\n\nYour clinician posted a record update for Thursday. Use your usual portal or contact your usual care office directly.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-es-sms-t01-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Sus resultados de laboratorio del lunes están en su portal habitual portal-care.example.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-es-sms-t01-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Sus resultados de laboratorio del jueves están en su portal habitual portal-care.example.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-es-sms-t02-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Tiene seguimiento de laboratorio en su clínica habitual el lunes a las 14:00. Llame al número habitual para cambios.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-es-sms-t02-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Tiene seguimiento de laboratorio en su consultorio habitual el jueves a las 09:30. Llame al número habitual para cambios.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-es-sms-t03-v01",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su profesional de salud actualizo el expediente del lunes. Use su portal habitual o llame a su clínica habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-es-sms-t03-v02",
+    "channel": "sms",
+    "language": "es",
+    "text": "Su profesional de salud actualizo el expediente del jueves. Use su portal habitual o llame a su consultorio habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-es-email-t01-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Actualización de laboratorio\n\nSus resultados de laboratorio del lunes están en su portal habitual portal-care.example.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-es-email-t01-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Actualización de laboratorio\n\nSus resultados de laboratorio del jueves están en su portal habitual portal-care.example.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-es-email-t02-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Actualización de laboratorio\n\nTiene seguimiento de laboratorio en su clínica habitual el lunes a las 14:00. Llame al número habitual para cambios.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-es-email-t02-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Actualización de laboratorio\n\nTiene seguimiento de laboratorio en su consultorio habitual el jueves a las 09:30. Llame al número habitual para cambios.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-es-email-t03-v01",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Actualización de laboratorio\n\nSu profesional de salud actualizo el expediente del lunes. Use su portal habitual o llame a su clínica habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  },
+  {
+    "id": "syn-legit-lab_results-es-email-t03-v02",
+    "channel": "email",
+    "language": "es",
+    "text": "Asunto: Actualización de laboratorio\n\nSu profesional de salud actualizo el expediente del jueves. Use su portal habitual o llame a su consultorio habitual.",
+    "label": "legitimate",
+    "family": "none",
+    "source": "careshield_synthetic_week2"
+  }
+]
