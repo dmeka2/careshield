@@ -29,3 +29,4 @@ Thumbs.db
 *.log
 *.tmp
 data/seed_corpus/raw/
+data/seed_corpus/staging/
