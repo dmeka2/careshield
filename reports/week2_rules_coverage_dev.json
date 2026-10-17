@@ -1,0 +1,87 @@
+{
+  "active_rules": 33,
+  "evaluation_status": "development_only_not_held_out",
+  "family_counts": {
+    "impersonation": {
+      "flagged": 57,
+      "total": 63
+    },
+    "insurance_enrollment": {
+      "flagged": 63,
+      "total": 63
+    },
+    "medical_debt": {
+      "flagged": 60,
+      "total": 63
+    },
+    "none": {
+      "flagged": 0,
+      "total": 125
+    },
+    "pharmacy": {
+      "flagged": 59,
+      "total": 63
+    },
+    "phishing": {
+      "flagged": 59,
+      "total": 63
+    }
+  },
+  "language_counts": {
+    "en": {
+      "scam": 160,
+      "scam_detected": 156,
+      "total": 224
+    },
+    "es": {
+      "scam": 155,
+      "scam_detected": 142,
+      "total": 216
+    }
+  },
+  "legitimate_flagged": 0,
+  "legitimate_total": 125,
+  "provisional_false_positive_rate": 0.0,
+  "provisional_recall": 0.946,
+  "rules_fired_counts": {
+    "DEBT-01": 24,
+    "DEBT-02": 13,
+    "DEBT-03": 17,
+    "DEBT-04": 12,
+    "DEBT-06": 35,
+    "DEBT-08": 12,
+    "ENR-01": 54,
+    "ENR-02": 37,
+    "ENR-04": 12,
+    "ENR-05": 13,
+    "IMP-01": 13,
+    "IMP-02": 42,
+    "IMP-03": 25,
+    "IMP-04": 7,
+    "IMP-08": 38,
+    "PHISH-04": 91,
+    "PHISH-08": 43,
+    "RX-01": 20,
+    "RX-02": 2,
+    "RX-04": 13,
+    "RX-06": 26,
+    "RX-08": 7
+  },
+  "rules_never_fired": [
+    "DEBT-07",
+    "ENR-06",
+    "ENR-07",
+    "IMP-05",
+    "IMP-06",
+    "PHISH-02",
+    "PHISH-05",
+    "PHISH-06",
+    "PHISH-07",
+    "RX-05",
+    "RX-07"
+  ],
+  "scam_detected": 298,
+  "scam_total": 315,
+  "total_messages": 440,
+  "warning": "Template-generated fictional messages are closely correlated and are NOT an independent or frozen test set. Metrics must not be used as the Week 2 gate result. The input is synthetic and has no real personal data; apply Presidio redaction before evaluating any real message."
+}

@@ -1,0 +1,82 @@
+rules:
+- id: ENR-01
+  name: Artificial enrollment urgency
+  family: insurance_enrollment
+  weight: medium
+  pattern: (?=.*\b(?:enroll\w*|coverage|health plan|cobertura|inscri\w*|p[o\u00f3]liza)\b)(?=.*(?:within one hour|before midnight|by
+    tonight|expires? today|act today|en una hora|esta noche|antes de ma\w+|hoy mismo))
+  explanations:
+    en: The message pressures you to make a health-insurance decision immediately. Scammers often create false deadlines so
+      people act before checking whether the offer is real.
+    es: El mensaje le presiona para tomar una decisión sobre su seguro médico inmediatamente. Los estafadores suelen crear
+      fechas límite falsas para que las personas actúen antes de verificar si la oferta es real.
+  test_cases:
+    positive: Your health coverage expires today; enroll now to keep it.
+    negative: Your health coverage renewal date is in your mailed notice.
+- id: ENR-02
+  name: Request for highly sensitive identifiers
+  family: insurance_enrollment
+  weight: high
+  pattern: (?=.*\b(?:insurance|health plan|enrollment|marketplace|plan de salud|cobertura|p[o\u00f3]liza)\b)(?=.*(?:social
+    security|medicare number|medicaid number|bank card|credit card|bank account|password|seguro social|n[u\u00fa]mero de medicare|tarjeta
+    bancaria|contrase\w+))
+  explanations:
+    en: The message unexpectedly asks for sensitive personal or financial information. Legitimate organizations should not
+      request this information through an unverified message.
+    es: El mensaje solicita inesperadamente información personal o financiera confidencial. Las organizaciones legítimas no
+      deben pedir esta información mediante un mensaje no verificado.
+  test_cases:
+    positive: Your health plan is approved. Send your Social Security number to activate it.
+    negative: Your health plan summary is available through your regular account.
+- id: ENR-04
+  name: Unusual or irreversible payment method
+  family: insurance_enrollment
+  weight: high
+  pattern: (?=.*(?:health plan|coverage|enroll\w*|inscri\w*|cobertura|p[o\u00f3]liza))(?=.*(?:gift cards?|wire transfer|\bwire\b|cryptocurrency|crypto|zelle|cash
+    app|tarjetas de regalo|transferencia|criptomoneda\w*))
+  explanations:
+    en: The message asks for a payment method commonly used by scammers because the payment can be difficult to recover.
+    es: El mensaje solicita un método de pago utilizado frecuentemente por estafadores porque puede ser difícil recuperar
+      el dinero.
+  test_cases:
+    positive: Wire a fee today to secure your health plan enrollment.
+    negative: Read the health plan documents before enrolling.
+- id: ENR-05
+  name: Guaranteed or unrealistic coverage claim
+  family: insurance_enrollment
+  weight: medium
+  pattern: (?:guaranteed.{0,35}(?:health plan|coverage|approval)|(?:zero.dollar|\$0|sin costo|gratis).{0,45}(?:plan|policy|p[o\u00f3]liza)|(?:health
+    plan|policy|p[o\u00f3]liza).{0,45}(?:guaranteed|\$0|sin costo))
+  explanations:
+    en: The offer makes unusually broad promises about eligibility, price, or coverage before verifying whether you qualify.
+    es: La oferta hace promesas poco realistas sobre elegibilidad, precio o cobertura antes de verificar si usted califica.
+  test_cases:
+    positive: You are guaranteed a $0 health plan with no eligibility review.
+    negative: Your plan benefits depend on eligibility and enrollment.
+- id: ENR-06
+  name: Refusal to provide plan details in writing
+  family: insurance_enrollment
+  weight: medium
+  pattern: (?=.*(?:plan|coverage|enroll\w*|cobertura|p[o\u00f3]liza))(?=.*(?:refus\w*.{0,30}(?:written|details)|won.t.{0,30}(?:written|details)|no
+    written plan information|sin detalles por escrito|se niega.{0,35}por escrito))
+  explanations:
+    en: The seller wants you to enroll before giving you clear written information about what the plan actually covers.
+    es: El vendedor quiere que usted se inscriba antes de darle información escrita y clara sobre lo que realmente cubre el
+      plan.
+  test_cases:
+    positive: The insurance agent refuses to provide written plan details before payment.
+    negative: Read the written plan details before making a decision.
+- id: ENR-07
+  name: Insurance agent cannot be independently verified
+  family: insurance_enrollment
+  weight: medium
+  pattern: (?=.*\b(?:agent|broker|insurance seller|agente|corredor)\b)(?=.*(?:refus\w*.{0,30}(?:license|licensing)|won.t provide.{0,30}(?:license|registration)|no
+    license details|se niega.{0,30}licencia))
+  explanations:
+    en: The person selling the plan avoids giving information that would let you independently verify their identity or insurance
+      license.
+    es: La persona que vende el plan evita proporcionar información que le permitiría verificar de forma independiente su
+      identidad o licencia de seguros.
+  test_cases:
+    positive: The insurance agent refuses to share any license details for verification.
+    negative: Your insurance agent provided the license number for verification.

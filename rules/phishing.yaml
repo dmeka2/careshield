@@ -1,0 +1,76 @@
+rules:
+- id: PHISH-02
+  name: URL shortener or raw IP address
+  family: phishing
+  weight: medium
+  pattern: (?:https?://)?(?:bit\.ly|tinyurl\.com|t\.co|rebrand\.ly|https?://\d{1,3}\.)
+  explanations:
+    en: The message hides or replaces the normal website address, making it harder to see where the link really goes.
+    es: El mensaje oculta o reemplaza la dirección normal del sitio web, lo que dificulta saber a dónde dirige realmente el
+      enlace.
+  test_cases:
+    positive: Review your test results at https://bit.ly/test-example
+    negative: Review your lab results using your normal patient portal.
+- id: PHISH-04
+  name: Credential or one-time-code request
+  family: phishing
+  weight: high
+  pattern: (?=.*(?:password|security code|verification code|login code|bank login|contrase\w+|c[o\u00f3]digo|credenciales|\bpin\b))(?=.*(?:enter|reply|send|submit|provide|confirm|ingrese|env[i\u00ed]e|responda|introduzca|escriba|comparta|needs?))
+  explanations:
+    en: The message asks for information that could let someone access your account. Passwords and verification codes should
+      not be shared through unexpected messages.
+    es: El mensaje solicita información que podría permitir que otra persona acceda a su cuenta. Las contraseñas y los códigos
+      de verificación no deben compartirse mediante mensajes inesperados.
+  test_cases:
+    positive: Enter your patient portal password at this page to see results.
+    negative: Your patient portal notification is available without requesting a password.
+- id: PHISH-05
+  name: Generic greeting combined with urgency
+  family: phishing
+  weight: medium
+  pattern: (?=.*(?:dear customer|dear member|hello user|estimado cliente|estimado usuario))(?=.*(?:account|portal|coverage|cuenta|cobertura))(?=.*(?:urgent|immediate|today|within|hoy|inmediato|en
+    una hora))
+  explanations:
+    en: The message combines a generic greeting with urgent pressure, which is a common phishing technique.
+    es: El mensaje combina un saludo genérico con presión urgente, una técnica común de phishing.
+  test_cases:
+    positive: 'Dear customer: urgent action today or your portal account will be suspended.'
+    negative: 'Dear customer: your statement is available in your account.'
+- id: PHISH-06
+  name: Unexpected attachment
+  family: phishing
+  weight: medium
+  pattern: (?=.*(?:attached|attachment|adjunto|archivo))(?=.*(?:lab result|medical bill|insurance document|results|record|factura|laboratorio|resultados))
+  explanations:
+    en: The message includes a file you were not expecting. Unexpected attachments can contain malicious software or lead
+      to credential theft.
+    es: El mensaje incluye un archivo que usted no esperaba. Los archivos adjuntos inesperados pueden contener software malicioso
+      o utilizarse para robar credenciales.
+  test_cases:
+    positive: Unexpected email attachment contains your lab results; open it now.
+    negative: Your routine appointment is confirmed for Monday.
+- id: PHISH-07
+  name: Unexpected QR code
+  family: phishing
+  weight: medium
+  pattern: (?=.*(?:qr code|c[o\u00f3]digo qr))(?=.*(?:scan|escanee|view|verify|pay|resultados|verificar|portal))
+  explanations:
+    en: The message uses a QR code to hide the destination website. Unexpected QR codes can send you to a fake login or payment
+      page.
+    es: El mensaje utiliza un código QR para ocultar el sitio web de destino. Los códigos QR inesperados pueden dirigirle
+      a una página falsa de inicio de sesión o pago.
+  test_cases:
+    positive: Scan this QR code to verify your patient portal account.
+    negative: Use your existing portal account to view your results.
+- id: PHISH-08
+  name: Sensitive payment information entered through message link
+  family: phishing
+  weight: high
+  pattern: (?=.*(?:bank|card|payment|tarjeta|pago|bancar))(?=.*(?:enter|submit|provide|upload|ingrese|env[i\u00ed]e|suba|introduzca))(?=.*(?:at
+    |link|portal|site|https?://|\.example|en ))
+  explanations:
+    en: The message directs you to provide financial information through a link that has not been independently verified.
+    es: El mensaje le dirige a proporcionar información financiera mediante un enlace que no ha sido verificado de forma independiente.
+  test_cases:
+    positive: Submit your bank login at benefits-review.example to pay the clinic.
+    negative: Your clinic bill is posted in your usual billing account.

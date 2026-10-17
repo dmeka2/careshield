@@ -1,0 +1,95 @@
+rules:
+- id: RX-01
+  name: Prescription medicine offered without a prescription
+  family: pharmacy
+  weight: high
+  pattern: (?=.*(?:prescription|medication|medicine|medicamento|receta))(?=.*(?:without (?:a |doctor.s )?prescription|no doctor
+    needed|sin receta|sin m[e\u00e9]dico))
+  explanations:
+    en: The seller offers prescription medicine without requiring a prescription. Legitimate pharmacies normally require a
+      valid prescription for prescription-only medication.
+    es: El vendedor ofrece medicamentos con receta sin exigir una receta. Las farmacias legítimas normalmente requieren una
+      receta válida para estos medicamentos.
+  test_cases:
+    positive: Buy prescription medicine without a prescription today.
+    negative: A valid prescription is required for this medication.
+- id: RX-02
+  name: Price appears unrealistically low
+  family: pharmacy
+  weight: medium
+  pattern: (?=.*(?:prescription|medication|pharmacy|medicine|farmaco|medicamento))(?=.*(?:[789]\d percent off|90% off|90 por
+    ciento|mitad de precio|unrealistic discount))
+  explanations:
+    en: The medicine is offered at a price that appears too good to be true. Extremely low prices can be a warning sign of
+      an unsafe or fraudulent pharmacy.
+    es: El medicamento se ofrece a un precio que parece demasiado bueno para ser verdad. Los precios extremadamente bajos
+      pueden ser una señal de una farmacia insegura o fraudulenta.
+  test_cases:
+    positive: Prescription medication is 90 percent off if you buy now.
+    negative: Check the usual pharmacy for your prescription price.
+- id: RX-04
+  name: Unsolicited medication advertisement
+  family: pharmacy
+  weight: medium
+  pattern: (?=.*(?:limited|special|exclusive|unexpected|oferta limitada|oferta exclusiva))(?=.*(?:prescription|pharmacy|medication|medicamento|receta))
+  explanations:
+    en: You received an unexpected offer for prescription medicine. Unsolicited drug advertisements are commonly used by unsafe
+      online pharmacies.
+    es: Usted recibió una oferta inesperada de medicamentos con receta. Las farmacias en línea inseguras utilizan con frecuencia
+      anuncios de medicamentos no solicitados.
+  test_cases:
+    positive: Limited pharmacy offer on prescription drugs this evening.
+    negative: Your routine prescription refill is ready for pickup.
+- id: RX-05
+  name: Foreign or unclear drug source
+  family: pharmacy
+  weight: medium
+  pattern: (?=.*(?:prescription|medicine|pharmacy|medicamento|farmacia))(?=.*(?:shipped from overseas|international warehouse|from
+    overseas|sin origen|origen desconocido))
+  explanations:
+    en: The source of the medicine is unclear or outside the normal licensed U.S. pharmacy system, making its safety difficult
+      to verify.
+    es: El origen del medicamento no está claro o está fuera del sistema normal de farmacias autorizadas de Estados Unidos,
+      lo que dificulta verificar su seguridad.
+  test_cases:
+    positive: Prescription medicine shipped from overseas without a named pharmacy.
+    negative: Prescription medicine is ready at your local pharmacy.
+- id: RX-06
+  name: Unusual payment method
+  family: pharmacy
+  weight: high
+  pattern: (?=.*(?:pharmacy|prescription|medicine|medication|farmacia|medicamento|receta))(?=.*(?:gift cards?|cryptocurrency|crypto|wire
+    transfer|tarjetas de regalo|criptomoneda\w*|transferencia))
+  explanations:
+    en: The seller requires an unusual payment method that may make it difficult to recover your money if the offer is fraudulent.
+    es: El vendedor exige un método de pago inusual que puede dificultar la recuperación de su dinero si la oferta es fraudulenta.
+  test_cases:
+    positive: This online pharmacy accepts cryptocurrency only for prescription medicine.
+    negative: Your regular pharmacy has prepared your prescription.
+- id: RX-07
+  name: Misleading high-demand or GLP-1 drug claim
+  family: pharmacy
+  weight: medium
+  pattern: (?=.*(?:glp-1|weight.loss|semaglutide|tirzepatide|ozempic))(?=.*(?:guaranteed results|guaranteed available|same
+    as fda|resultados garantizados|disponibilidad garantizada))
+  explanations:
+    en: The seller makes unusually strong claims about a high-demand medication that should be independently verified before
+      purchase.
+    es: El vendedor hace afirmaciones inusualmente fuertes sobre un medicamento de alta demanda que deben verificarse de forma
+      independiente antes de comprarlo.
+  test_cases:
+    positive: GLP-1 weight-loss medication with guaranteed results.
+    negative: Ask your clinician about GLP-1 medication risks.
+- id: RX-08
+  name: Countdown timer or extreme scarcity pressure
+  family: pharmacy
+  weight: medium
+  pattern: (?=.*(?:pharmacy|prescription|medication|refill|medicine|farmacia|receta|medicamento))(?=.*(?:limited offer|only.{0,12}(?:minutes?|left)|countdown|last
+    chance|solo (?:hoy|\d+ minutos)|oferta limitada))
+  explanations:
+    en: The seller is using urgency or scarcity to push you into buying medicine before checking whether the pharmacy is legitimate.
+    es: El vendedor utiliza urgencia o escasez para presionarle a comprar medicamentos antes de verificar si la farmacia es
+      legítima.
+  test_cases:
+    positive: Limited pharmacy offer on prescription medicines, only ten minutes left.
+    negative: Your pharmacy refill is available during normal business hours.

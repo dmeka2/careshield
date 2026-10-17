@@ -1,0 +1,88 @@
+rules:
+- id: DEBT-01
+  name: Threat of arrest or criminal punishment
+  family: medical_debt
+  weight: high
+  pattern: (?=.*(?:medical|hospital|bill|debt|collector|saldo|deuda|factura))(?=.*(?:arrest|jail|police|law enforcement|orden
+    de arresto|polic\w+))
+  explanations:
+    en: The message threatens serious punishment to pressure you into paying quickly. Threats like these are a strong warning
+      sign.
+    es: El mensaje amenaza con consecuencias graves para presionarle a pagar rápidamente. Este tipo de amenaza es una señal
+      de advertencia importante.
+  test_cases:
+    positive: Pay this medical bill or the police will arrest you tomorrow.
+    negative: Your hospital statement is available in the usual billing portal.
+- id: DEBT-02
+  name: Refusal to provide debt-validation information
+  family: medical_debt
+  weight: high
+  pattern: (?=.*(?:collector|hospital|medical debt|deuda|cobrador|balance|bill|factura))(?=.*(?:refus\w*.{0,35}(?:written|verif\w+)|won.t.{0,35}(?:written|verif\w+)|no.{0,20}verification|se
+    niega.{0,35}por escrito))
+  explanations:
+    en: The collector will not give you enough written information to confirm that the debt is actually yours.
+    es: El cobrador no proporciona suficiente información por escrito para confirmar que la deuda realmente le pertenece.
+  test_cases:
+    positive: The hospital debt collector refuses to send written verification.
+    negative: The hospital sent a written statement explaining my bill.
+- id: DEBT-03
+  name: Same-day payment pressure
+  family: medical_debt
+  weight: medium
+  pattern: (?=.*(?:medical bill|hospital|debt|medical balance|cobrador|deuda|factura medica))(?=.*(?:pay today|pay immediately|pay
+    within|payment.{0,15}today|pague hoy|pago inmediato|en una hora|before tomorrow))
+  explanations:
+    en: The collector is pressuring you to pay before you have time to verify whether the medical debt is legitimate.
+    es: El cobrador le presiona para pagar antes de que tenga tiempo de verificar si la deuda médica es legítima.
+  test_cases:
+    positive: You have a medical debt. Pay today without checking the bill first.
+    negative: You can view your hospital bill in your regular portal.
+- id: DEBT-04
+  name: Unrecognized medical debt
+  family: medical_debt
+  weight: medium
+  pattern: (?=.*(?:medical|hospital|treatment|procedure|tratamiento))(?=.*(?:unknown|unrecognized|never received|desconocid\w+|no
+    reconozco))
+  explanations:
+    en: The message refers to medical care or a bill you do not recognize. Verify the bill directly with the healthcare provider
+      before paying.
+    es: El mensaje se refiere a atención médica o a una factura que usted no reconoce. Verifique la factura directamente con
+      el proveedor de atención médica antes de pagar.
+  test_cases:
+    positive: Pay $400 for unknown hospital treatment now.
+    negative: Your scheduled medical treatment is tomorrow.
+- id: DEBT-06
+  name: Gift card, wire, cryptocurrency, or payment-app demand
+  family: medical_debt
+  weight: high
+  pattern: (?=.*(?:bill|hospital|debt|collector|cobrador|deuda|factura|balance))(?=.*(?:gift cards?|wire|cryptocurrency|crypto|zelle|venmo|cash
+    app|tarjetas de regalo|transferencia|criptomoneda\w*|payment app|aplicacion))
+  explanations:
+    en: The collector demands a payment method that is difficult to reverse and is commonly used in scams.
+    es: El cobrador exige un método de pago difícil de revertir y utilizado frecuentemente en estafas.
+  test_cases:
+    positive: Your hospital debt must be paid with gift cards.
+    negative: Your hospital billing receipt is available for review.
+- id: DEBT-07
+  name: Collector will not identify the original creditor
+  family: medical_debt
+  weight: medium
+  pattern: (?=.*(?:debt|collector|cobrador|deuda))(?=.*(?:won.t name|refus\w*.{0,25}identify|no original creditor|no diremos.{0,25}acreedor|cannot
+    tell you.{0,25}hospital))
+  explanations:
+    en: The collector is asking for money without clearly identifying who originally says you owe the debt.
+    es: El cobrador solicita dinero sin identificar claramente quién afirma originalmente que usted debe la deuda.
+  test_cases:
+    positive: The debt collector refuses to identify the original creditor.
+    negative: The debt notice clearly identifies the hospital creditor.
+- id: DEBT-08
+  name: Discourages independent verification
+  family: medical_debt
+  weight: medium
+  pattern: (?=.*(?:hospital|debt|bill|medical|cobrador|factura|deuda|saldo|pay|pague))(?:(?:do not|don.t)\s+(?:contact|call)|no\s+(?:llame|contacte)).{0,40}(?:clinic|hospital|insurer|provider|family|cl[i\u00ed]nica|proveedor)
+  explanations:
+    en: The sender is trying to stop you from independently checking whether the bill or debt is real.
+    es: El remitente intenta impedir que usted verifique de forma independiente si la factura o la deuda es real.
+  test_cases:
+    positive: Do not contact your hospital to verify the alleged bill; pay us now.
+    negative: If you have questions contact your hospital through the usual number.

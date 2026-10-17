@@ -1,0 +1,94 @@
+rules:
+- id: IMP-01
+  name: '"New" or "updated" Medicare card request'
+  family: impersonation
+  weight: high
+  pattern: (?=.*medicare)(?=.*(?:new (?:medicare )?card|updated (?:medicare )?card|replacement|replace your card|tarjeta nueva|nueva
+    tarjeta|reemplazar su tarjeta))(?=.*(?:number|verify|confirm|env[i\u00ed]e|n[u\u00fa]mero|verifique|activate|activar))
+  explanations:
+    en: The message says you need a new Medicare card and asks you to verify personal information. Unexpected requests like
+      this are a common impersonation tactic.
+    es: El mensaje dice que necesita una nueva tarjeta de Medicare y le pide verificar información personal. Las solicitudes
+      inesperadas de este tipo son una táctica común de suplantación.
+  test_cases:
+    positive: Your new Medicare card is ready; verify your Medicare number now.
+    negative: Your Medicare coverage information is available by mail.
+- id: IMP-02
+  name: Unsolicited Medicare-number verification
+  family: impersonation
+  weight: high
+  pattern: (?=.*medicare)(?=.*(?:reply|send|confirm|provide|verifique|env[i\u00ed]e|responda))(?=.*(?:number|\bid\b|n[u\u00fa]mero))
+  explanations:
+    en: Someone claiming to represent Medicare contacted you unexpectedly and asked for your Medicare number.
+    es: Alguien que afirma representar a Medicare le contactó inesperadamente y le pidió su número de Medicare.
+  test_cases:
+    positive: Reply with your Medicare number to confirm coverage.
+    negative: Your Medicare Explanation of Benefits is ready for viewing.
+- id: IMP-03
+  name: Free medical equipment or testing offer
+  family: impersonation
+  weight: high
+  pattern: (?=.*(?:free|gratis))(?=.*(?:equipment|medical device|test|screening kit|\bkit\b|dispositivo|examen|prueba|equipo))(?=.*(?:medicare|hhs|gobierno))
+  explanations:
+    en: The message offers free medical equipment or testing while requesting your Medicare information. Fraudsters may use
+      that information to bill for services or equipment you did not need.
+    es: El mensaje ofrece equipos médicos o pruebas gratuitas mientras solicita su información de Medicare. Los estafadores
+      pueden utilizar esa información para facturar servicios o equipos que usted no necesitaba.
+  test_cases:
+    positive: HHS offers free screening equipment when you send your Medicare ID.
+    negative: Medicare does not ask for your number in an unexpected text.
+- id: IMP-04
+  name: Medicaid coverage-loss message with suspicious link
+  family: impersonation
+  weight: high
+  pattern: (?=.*medicaid)(?=.*(?:lose (?:medicaid )?coverage|coverage cancelled|perder[a\u00e1].{0,25}cobertura|perdida.{0,25}cobertura))(?=.*(?:send|verify|reply|provide|pay|click|env[i\u00ed]e|verifique|pague|ingrese))
+  explanations:
+    en: The message threatens loss of Medicaid coverage and pressures you to use an unverified link or provide information
+      immediately.
+    es: El mensaje amenaza con la pérdida de cobertura de Medicaid y le presiona para utilizar un enlace no verificado o proporcionar
+      información inmediatamente.
+  test_cases:
+    positive: You will lose Medicaid coverage today unless you send your SSN.
+    negative: Your Medicaid coverage guide is available from the official website.
+- id: IMP-05
+  name: Payment required to keep government health coverage
+  family: impersonation
+  weight: high
+  pattern: (?=.*(?:medicare|medicaid|government health|beneficios de gobierno))(?=.*(?:fee|pay|payment|pague|pago|cuota))(?=.*(?:keep
+    (?:medicare |medicaid )?coverage|activate card|receive benefits|mantener.{0,20}cobertura|activar|beneficios))
+  explanations:
+    en: The sender claims you must pay money to keep government health coverage or receive benefits. Unexpected payment demands
+      should be independently verified.
+    es: El remitente afirma que debe pagar dinero para mantener la cobertura médica del gobierno o recibir beneficios. Las
+      solicitudes de pago inesperadas deben verificarse de forma independiente.
+  test_cases:
+    positive: Pay a fee now to keep Medicare coverage active.
+    negative: Medicare information is available through its official channels.
+- id: IMP-06
+  name: Government badge, employee ID, or caller-ID proof
+  family: impersonation
+  weight: medium
+  pattern: (?=.*(?:government|medicare|medicaid|official|funcionario|gobierno))(?=.*(?:badge number|employee id|caller id|badge|identificacion|credencial))(?=.*(?:proof|instead
+    of|do not verify|no verifique|trust me|prueba))
+  explanations:
+    en: The person uses an official-looking identifier as proof that they are legitimate. Caller ID and identification images
+      can be faked.
+    es: La persona utiliza una identificación de apariencia oficial como prueba de legitimidad. El identificador de llamadas
+      y las imágenes de identificación pueden falsificarse.
+  test_cases:
+    positive: Trust me, my government badge number is proof; do not verify independently.
+    negative: The government representative provided a public number to check.
+- id: IMP-08
+  name: Unsolicited government or provider contact requesting sensitive information
+  family: impersonation
+  weight: high
+  pattern: (?=.*(?:government|medicare|medicaid|hhs|hospital|clinic|provider|representative|representante|cl[i\u00ed]nica|m[e\u00e9]dico))(?=.*(?:send|provide|confirm|reply|upload|env[i\u00ed]e|responda|ingrese|verifique|suba))(?=.*(?:social
+    security|medicare number|medicare id|bank details|credit card|password|n[u\u00fa]mero de seguro social|contrase\w+))
+  explanations:
+    en: The sender unexpectedly asks for sensitive information while claiming to represent a trusted healthcare or government
+      organization.
+    es: El remitente solicita inesperadamente información confidencial mientras afirma representar a una organización médica
+      o gubernamental de confianza.
+  test_cases:
+    positive: 'Government health representative: send your Social Security number immediately.'
+    negative: Your clinic appointment was confirmed without asking for credentials.
