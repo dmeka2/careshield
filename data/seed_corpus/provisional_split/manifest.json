@@ -1,0 +1,131 @@
+{
+  "eligible_source": "careshield_synthetic_week2",
+  "excluded": [
+    "Week 1 synthetic pilot (possible template overlap)",
+    "private/unreviewed UCI SMS candidates"
+  ],
+  "file_sha256": {
+    "test.csv": "fd8a0c846cf3ca439230bf528f1946c836b0951bc8aa1a540f19084581fb977f",
+    "train.csv": "1803ca2fffbb6c0dc28b348e86efe13b766eeb8e3acc7593c21ab0b829922cf8",
+    "validation.csv": "330f8178a4c9a9562c69e56bc309a19b7b8bd1f84327145ec050a2eeb14e0a88"
+  },
+  "seed": "careshield-week2-provisional-v1",
+  "source_records_sha256": "ef1b9118eb0f9f529b34df307c30f7ce7567aada8483a6dac5517053ebc66642",
+  "split_summary": {
+    "test": {
+      "base_template_groups": 6,
+      "by_channel": {
+        "email": 32,
+        "sms": 32
+      },
+      "by_family": {
+        "impersonation": 12,
+        "insurance_enrollment": 12,
+        "medical_debt": 12,
+        "none": 16,
+        "pharmacy": 12
+      },
+      "by_label": {
+        "legitimate": 16,
+        "scam": 48
+      },
+      "by_language": {
+        "en": 32,
+        "es": 32
+      },
+      "total": 64
+    },
+    "train": {
+      "base_template_groups": 28,
+      "by_channel": {
+        "email": 146,
+        "sms": 146
+      },
+      "by_family": {
+        "impersonation": 36,
+        "insurance_enrollment": 36,
+        "medical_debt": 48,
+        "none": 88,
+        "pharmacy": 36,
+        "phishing": 48
+      },
+      "by_label": {
+        "legitimate": 88,
+        "scam": 204
+      },
+      "by_language": {
+        "en": 146,
+        "es": 146
+      },
+      "total": 292
+    },
+    "validation": {
+      "base_template_groups": 6,
+      "by_channel": {
+        "email": 32,
+        "sms": 32
+      },
+      "by_family": {
+        "impersonation": 12,
+        "insurance_enrollment": 12,
+        "none": 16,
+        "pharmacy": 12,
+        "phishing": 12
+      },
+      "by_label": {
+        "legitimate": 16,
+        "scam": 48
+      },
+      "by_language": {
+        "en": 32,
+        "es": 32
+      },
+      "total": 64
+    }
+  },
+  "status": "EXPERIMENTAL - NOT FINAL/FROZEN TEST DATA",
+  "template_group_assignment": {
+    "legit:appointment:t01": "train",
+    "legit:appointment:t02": "train",
+    "legit:appointment:t03": "train",
+    "legit:billing:t01": "train",
+    "legit:billing:t02": "validation",
+    "legit:billing:t03": "train",
+    "legit:insurance:t01": "test",
+    "legit:insurance:t02": "train",
+    "legit:insurance:t03": "train",
+    "legit:lab_results:t01": "test",
+    "legit:lab_results:t02": "train",
+    "legit:lab_results:t03": "train",
+    "legit:pharmacy:t01": "train",
+    "legit:pharmacy:t02": "train",
+    "legit:pharmacy:t03": "validation",
+    "scam:impersonation:t01": "train",
+    "scam:impersonation:t02": "validation",
+    "scam:impersonation:t03": "train",
+    "scam:impersonation:t04": "train",
+    "scam:impersonation:t05": "test",
+    "scam:insurance_enrollment:t01": "validation",
+    "scam:insurance_enrollment:t02": "train",
+    "scam:insurance_enrollment:t03": "test",
+    "scam:insurance_enrollment:t04": "train",
+    "scam:insurance_enrollment:t05": "train",
+    "scam:medical_debt:t01": "train",
+    "scam:medical_debt:t02": "train",
+    "scam:medical_debt:t03": "test",
+    "scam:medical_debt:t04": "train",
+    "scam:medical_debt:t05": "train",
+    "scam:pharmacy:t01": "train",
+    "scam:pharmacy:t02": "train",
+    "scam:pharmacy:t03": "test",
+    "scam:pharmacy:t04": "train",
+    "scam:pharmacy:t05": "validation",
+    "scam:phishing:t01": "train",
+    "scam:phishing:t02": "train",
+    "scam:phishing:t03": "validation",
+    "scam:phishing:t04": "train",
+    "scam:phishing:t05": "train"
+  },
+  "version": "provisional-v1",
+  "warning": "No final Week 2 benchmark claim; same-generation synthetic data only."
+}

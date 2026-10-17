@@ -1,0 +1,129 @@
+id,channel,language,text,label,family,source
+syn-legit-billing-en-email-t02-v01,email,en,"Subject: Billing update
+
+Your clinic payment receipt dated Monday was posted. No additional payment is requested in this notice.",legitimate,none,careshield_synthetic_week2
+syn-legit-billing-en-email-t02-v02,email,en,"Subject: Billing update
+
+Your clinic payment receipt dated Thursday was posted. No additional payment is requested in this notice.",legitimate,none,careshield_synthetic_week2
+syn-legit-billing-en-sms-t02-v01,sms,en,Your clinic payment receipt dated Monday was posted. No additional payment is requested in this notice.,legitimate,none,careshield_synthetic_week2
+syn-legit-billing-en-sms-t02-v02,sms,en,Your clinic payment receipt dated Thursday was posted. No additional payment is requested in this notice.,legitimate,none,careshield_synthetic_week2
+syn-legit-billing-es-email-t02-v01,email,es,"Asunto: Actualización de facturacion
+
+Se registró su recibo de pago de la clínica del lunes. Este aviso no solicita otro pago.",legitimate,none,careshield_synthetic_week2
+syn-legit-billing-es-email-t02-v02,email,es,"Asunto: Actualización de facturacion
+
+Se registró su recibo de pago de la clínica del jueves. Este aviso no solicita otro pago.",legitimate,none,careshield_synthetic_week2
+syn-legit-billing-es-sms-t02-v01,sms,es,Se registró su recibo de pago de la clínica del lunes. Este aviso no solicita otro pago.,legitimate,none,careshield_synthetic_week2
+syn-legit-billing-es-sms-t02-v02,sms,es,Se registró su recibo de pago de la clínica del jueves. Este aviso no solicita otro pago.,legitimate,none,careshield_synthetic_week2
+syn-legit-pharmacy-en-email-t03-v01,email,en,"Subject: Pharmacy update
+
+A routine medication review is booked for Monday at 2:00 PM. No payment or password is requested in this reminder.",legitimate,none,careshield_synthetic_week2
+syn-legit-pharmacy-en-email-t03-v02,email,en,"Subject: Pharmacy update
+
+A routine medication review is booked for Thursday at 9:30 AM. No payment or password is requested in this reminder.",legitimate,none,careshield_synthetic_week2
+syn-legit-pharmacy-en-sms-t03-v01,sms,en,A routine medication review is booked for Monday at 2:00 PM. No payment or password is requested in this reminder.,legitimate,none,careshield_synthetic_week2
+syn-legit-pharmacy-en-sms-t03-v02,sms,en,A routine medication review is booked for Thursday at 9:30 AM. No payment or password is requested in this reminder.,legitimate,none,careshield_synthetic_week2
+syn-legit-pharmacy-es-email-t03-v01,email,es,"Asunto: Aviso de farmacia
+
+Tiene una revisión rutinaria de medicamentos el lunes a las 14:00. Este aviso no pide dinero ni contraseñas.",legitimate,none,careshield_synthetic_week2
+syn-legit-pharmacy-es-email-t03-v02,email,es,"Asunto: Aviso de farmacia
+
+Tiene una revisión rutinaria de medicamentos el jueves a las 09:30. Este aviso no pide dinero ni contraseñas.",legitimate,none,careshield_synthetic_week2
+syn-legit-pharmacy-es-sms-t03-v01,sms,es,Tiene una revisión rutinaria de medicamentos el lunes a las 14:00. Este aviso no pide dinero ni contraseñas.,legitimate,none,careshield_synthetic_week2
+syn-legit-pharmacy-es-sms-t03-v02,sms,es,Tiene una revisión rutinaria de medicamentos el jueves a las 09:30. Este aviso no pide dinero ni contraseñas.,legitimate,none,careshield_synthetic_week2
+syn-scam-impersonation-en-email-t02-v01,email,en,"Subject: Benefits notification
+
+HHS benefits office offers a free screening kit. Reply with your Medicare ID within one hour.",scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-en-email-t02-v02,email,en,"Subject: Benefits notification
+
+HHS benefits office offers a free medical test. Reply with your Medicare ID by tonight.",scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-en-email-t02-v03,email,en,"Subject: Benefits notification
+
+HHS benefits office offers a free medical device. Reply with your Medicare ID before tomorrow morning.",scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-en-sms-t02-v01,sms,en,HHS benefits office offers a free screening kit. Reply with your Medicare ID within one hour.,scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-en-sms-t02-v02,sms,en,HHS benefits office offers a free medical test. Reply with your Medicare ID by tonight.,scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-en-sms-t02-v03,sms,en,HHS benefits office offers a free medical device. Reply with your Medicare ID before tomorrow morning.,scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-es-email-t02-v01,email,es,"Asunto: Notificación de beneficios
+
+La oficina de beneficios de HHS ofrece gratis un kit de prueba. Responda con su número de Medicare en una hora.",scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-es-email-t02-v02,email,es,"Asunto: Notificación de beneficios
+
+La oficina de beneficios de HHS ofrece gratis un examen médico. Responda con su número de Medicare esta noche.",scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-es-email-t02-v03,email,es,"Asunto: Notificación de beneficios
+
+La oficina de beneficios de HHS ofrece gratis un dispositivo médico. Responda con su número de Medicare antes de mañana.",scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-es-sms-t02-v01,sms,es,La oficina de beneficios de HHS ofrece gratis un kit de prueba. Responda con su número de Medicare en una hora.,scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-es-sms-t02-v02,sms,es,La oficina de beneficios de HHS ofrece gratis un examen médico. Responda con su número de Medicare esta noche.,scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-es-sms-t02-v03,sms,es,La oficina de beneficios de HHS ofrece gratis un dispositivo médico. Responda con su número de Medicare antes de mañana.,scam,impersonation,careshield_synthetic_week2
+syn-scam-insurance_enrollment-en-email-t01-v01,email,en,"Subject: Coverage action requested
+
+Your Community Basic health plan was approved. Send your Social Security number within one hour to activate it.",scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-en-email-t01-v02,email,en,"Subject: Coverage action requested
+
+Your Preferred Choice health plan was approved. Send your Social Security number by tonight to activate it.",scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-en-email-t01-v03,email,en,"Subject: Coverage action requested
+
+Your Select Plus health plan was approved. Send your Social Security number before tomorrow morning to activate it.",scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-en-sms-t01-v01,sms,en,Your Community Basic health plan was approved. Send your Social Security number within one hour to activate it.,scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-en-sms-t01-v02,sms,en,Your Preferred Choice health plan was approved. Send your Social Security number by tonight to activate it.,scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-en-sms-t01-v03,sms,en,Your Select Plus health plan was approved. Send your Social Security number before tomorrow morning to activate it.,scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-es-email-t01-v01,email,es,"Asunto: Acción de cobertura
+
+Su plan de salud Community Basic fue aprobado. Envíe su número de Seguro Social en una hora para activarlo.",scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-es-email-t01-v02,email,es,"Asunto: Acción de cobertura
+
+Su plan de salud Preferred Choice fue aprobado. Envíe su número de Seguro Social esta noche para activarlo.",scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-es-email-t01-v03,email,es,"Asunto: Acción de cobertura
+
+Su plan de salud Select Plus fue aprobado. Envíe su número de Seguro Social antes de mañana para activarlo.",scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-es-sms-t01-v01,sms,es,Su plan de salud Community Basic fue aprobado. Envíe su número de Seguro Social en una hora para activarlo.,scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-es-sms-t01-v02,sms,es,Su plan de salud Preferred Choice fue aprobado. Envíe su número de Seguro Social esta noche para activarlo.,scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-es-sms-t01-v03,sms,es,Su plan de salud Select Plus fue aprobado. Envíe su número de Seguro Social antes de mañana para activarlo.,scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-pharmacy-en-email-t05-v01,email,en,"Subject: Pharmacy update
+
+Your medication delivery is blocked. Upload an ID photo and payment card at member-review.example within one hour.",scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-en-email-t05-v02,email,en,"Subject: Pharmacy update
+
+Your medication delivery is blocked. Upload an ID photo and payment card at benefit-confirm.example by tonight.",scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-en-email-t05-v03,email,en,"Subject: Pharmacy update
+
+Your medication delivery is blocked. Upload an ID photo and payment card at claims-check.example before tomorrow morning.",scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-en-sms-t05-v01,sms,en,Your medication delivery is blocked. Upload an ID photo and payment card at member-review.example within one hour.,scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-en-sms-t05-v02,sms,en,Your medication delivery is blocked. Upload an ID photo and payment card at benefit-confirm.example by tonight.,scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-en-sms-t05-v03,sms,en,Your medication delivery is blocked. Upload an ID photo and payment card at claims-check.example before tomorrow morning.,scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-es-email-t05-v01,email,es,"Asunto: Aviso de farmacia
+
+La entrega de sus medicamentos está bloqueada. Suba foto de su identificación y tarjeta en member-review.example en una hora.",scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-es-email-t05-v02,email,es,"Asunto: Aviso de farmacia
+
+La entrega de sus medicamentos está bloqueada. Suba foto de su identificación y tarjeta en benefit-confirm.example esta noche.",scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-es-email-t05-v03,email,es,"Asunto: Aviso de farmacia
+
+La entrega de sus medicamentos está bloqueada. Suba foto de su identificación y tarjeta en claims-check.example antes de mañana.",scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-es-sms-t05-v01,sms,es,La entrega de sus medicamentos está bloqueada. Suba foto de su identificación y tarjeta en member-review.example en una hora.,scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-es-sms-t05-v02,sms,es,La entrega de sus medicamentos está bloqueada. Suba foto de su identificación y tarjeta en benefit-confirm.example esta noche.,scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-es-sms-t05-v03,sms,es,La entrega de sus medicamentos está bloqueada. Suba foto de su identificación y tarjeta en claims-check.example antes de mañana.,scam,pharmacy,careshield_synthetic_week2
+syn-scam-phishing-en-email-t03-v01,email,en,"Subject: Patient account notice
+
+Appointment payment failed. Submit your bank login details at member-review.example within one hour.",scam,phishing,careshield_synthetic_week2
+syn-scam-phishing-en-email-t03-v02,email,en,"Subject: Patient account notice
+
+Appointment payment failed. Submit your bank login details at benefit-confirm.example by tonight.",scam,phishing,careshield_synthetic_week2
+syn-scam-phishing-en-email-t03-v03,email,en,"Subject: Patient account notice
+
+Appointment payment failed. Submit your bank login details at claims-check.example before tomorrow morning.",scam,phishing,careshield_synthetic_week2
+syn-scam-phishing-en-sms-t03-v01,sms,en,Appointment payment failed. Submit your bank login details at member-review.example within one hour.,scam,phishing,careshield_synthetic_week2
+syn-scam-phishing-en-sms-t03-v02,sms,en,Appointment payment failed. Submit your bank login details at benefit-confirm.example by tonight.,scam,phishing,careshield_synthetic_week2
+syn-scam-phishing-en-sms-t03-v03,sms,en,Appointment payment failed. Submit your bank login details at claims-check.example before tomorrow morning.,scam,phishing,careshield_synthetic_week2
+syn-scam-phishing-es-email-t03-v01,email,es,"Asunto: Aviso de cuenta de paciente
+
+Fallo el pago de una cita. Ingrese las credenciales bancarias en member-review.example en una hora.",scam,phishing,careshield_synthetic_week2
+syn-scam-phishing-es-email-t03-v02,email,es,"Asunto: Aviso de cuenta de paciente
+
+Fallo el pago de una cita. Ingrese las credenciales bancarias en benefit-confirm.example esta noche.",scam,phishing,careshield_synthetic_week2
+syn-scam-phishing-es-email-t03-v03,email,es,"Asunto: Aviso de cuenta de paciente
+
+Fallo el pago de una cita. Ingrese las credenciales bancarias en claims-check.example antes de mañana.",scam,phishing,careshield_synthetic_week2
+syn-scam-phishing-es-sms-t03-v01,sms,es,Fallo el pago de una cita. Ingrese las credenciales bancarias en member-review.example en una hora.,scam,phishing,careshield_synthetic_week2
+syn-scam-phishing-es-sms-t03-v02,sms,es,Fallo el pago de una cita. Ingrese las credenciales bancarias en benefit-confirm.example esta noche.,scam,phishing,careshield_synthetic_week2
+syn-scam-phishing-es-sms-t03-v03,sms,es,Fallo el pago de una cita. Ingrese las credenciales bancarias en claims-check.example antes de mañana.,scam,phishing,careshield_synthetic_week2

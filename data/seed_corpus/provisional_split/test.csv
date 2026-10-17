@@ -1,0 +1,129 @@
+id,channel,language,text,label,family,source
+syn-legit-insurance-en-email-t01-v01,email,en,"Subject: Insurance information
+
+Your Explanation of Benefits for Monday is available through your usual insurance account. This is not a bill.",legitimate,none,careshield_synthetic_week2
+syn-legit-insurance-en-email-t01-v02,email,en,"Subject: Insurance information
+
+Your Explanation of Benefits for Thursday is available through your usual insurance account. This is not a bill.",legitimate,none,careshield_synthetic_week2
+syn-legit-insurance-en-sms-t01-v01,sms,en,Your Explanation of Benefits for Monday is available through your usual insurance account. This is not a bill.,legitimate,none,careshield_synthetic_week2
+syn-legit-insurance-en-sms-t01-v02,sms,en,Your Explanation of Benefits for Thursday is available through your usual insurance account. This is not a bill.,legitimate,none,careshield_synthetic_week2
+syn-legit-insurance-es-email-t01-v01,email,es,"Asunto: Información de seguro
+
+Su explicación de beneficios del lunes está en su cuenta de seguro habitual. Esto no es una factura.",legitimate,none,careshield_synthetic_week2
+syn-legit-insurance-es-email-t01-v02,email,es,"Asunto: Información de seguro
+
+Su explicación de beneficios del jueves está en su cuenta de seguro habitual. Esto no es una factura.",legitimate,none,careshield_synthetic_week2
+syn-legit-insurance-es-sms-t01-v01,sms,es,Su explicación de beneficios del lunes está en su cuenta de seguro habitual. Esto no es una factura.,legitimate,none,careshield_synthetic_week2
+syn-legit-insurance-es-sms-t01-v02,sms,es,Su explicación de beneficios del jueves está en su cuenta de seguro habitual. Esto no es una factura.,legitimate,none,careshield_synthetic_week2
+syn-legit-lab_results-en-email-t01-v01,email,en,"Subject: Lab update
+
+Your lab results from Monday are available in your normal patient portal at portal-care.example.",legitimate,none,careshield_synthetic_week2
+syn-legit-lab_results-en-email-t01-v02,email,en,"Subject: Lab update
+
+Your lab results from Thursday are available in your normal patient portal at portal-care.example.",legitimate,none,careshield_synthetic_week2
+syn-legit-lab_results-en-sms-t01-v01,sms,en,Your lab results from Monday are available in your normal patient portal at portal-care.example.,legitimate,none,careshield_synthetic_week2
+syn-legit-lab_results-en-sms-t01-v02,sms,en,Your lab results from Thursday are available in your normal patient portal at portal-care.example.,legitimate,none,careshield_synthetic_week2
+syn-legit-lab_results-es-email-t01-v01,email,es,"Asunto: Actualización de laboratorio
+
+Sus resultados de laboratorio del lunes están en su portal habitual portal-care.example.",legitimate,none,careshield_synthetic_week2
+syn-legit-lab_results-es-email-t01-v02,email,es,"Asunto: Actualización de laboratorio
+
+Sus resultados de laboratorio del jueves están en su portal habitual portal-care.example.",legitimate,none,careshield_synthetic_week2
+syn-legit-lab_results-es-sms-t01-v01,sms,es,Sus resultados de laboratorio del lunes están en su portal habitual portal-care.example.,legitimate,none,careshield_synthetic_week2
+syn-legit-lab_results-es-sms-t01-v02,sms,es,Sus resultados de laboratorio del jueves están en su portal habitual portal-care.example.,legitimate,none,careshield_synthetic_week2
+syn-scam-impersonation-en-email-t05-v01,email,en,"Subject: Benefits notification
+
+A government health representative offers a free screening kit if you confirm your Medicare number within one hour.",scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-en-email-t05-v02,email,en,"Subject: Benefits notification
+
+A government health representative offers a free medical test if you confirm your Medicare number by tonight.",scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-en-email-t05-v03,email,en,"Subject: Benefits notification
+
+A government health representative offers a free medical device if you confirm your Medicare number before tomorrow morning.",scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-en-sms-t05-v01,sms,en,A government health representative offers a free screening kit if you confirm your Medicare number within one hour.,scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-en-sms-t05-v02,sms,en,A government health representative offers a free medical test if you confirm your Medicare number by tonight.,scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-en-sms-t05-v03,sms,en,A government health representative offers a free medical device if you confirm your Medicare number before tomorrow morning.,scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-es-email-t05-v01,email,es,"Asunto: Notificación de beneficios
+
+Un representante de salud del gobierno ofrece un kit de prueba gratis si confirma su número de Medicare en una hora.",scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-es-email-t05-v02,email,es,"Asunto: Notificación de beneficios
+
+Un representante de salud del gobierno ofrece un examen médico gratis si confirma su número de Medicare esta noche.",scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-es-email-t05-v03,email,es,"Asunto: Notificación de beneficios
+
+Un representante de salud del gobierno ofrece un dispositivo médico gratis si confirma su número de Medicare antes de mañana.",scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-es-sms-t05-v01,sms,es,Un representante de salud del gobierno ofrece un kit de prueba gratis si confirma su número de Medicare en una hora.,scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-es-sms-t05-v02,sms,es,Un representante de salud del gobierno ofrece un examen médico gratis si confirma su número de Medicare esta noche.,scam,impersonation,careshield_synthetic_week2
+syn-scam-impersonation-es-sms-t05-v03,sms,es,Un representante de salud del gobierno ofrece un dispositivo médico gratis si confirma su número de Medicare antes de mañana.,scam,impersonation,careshield_synthetic_week2
+syn-scam-insurance_enrollment-en-email-t03-v01,email,en,"Subject: Coverage action requested
+
+Claim a zero-dollar Community Basic policy. Enter your Medicare number at member-review.example within one hour.",scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-en-email-t03-v02,email,en,"Subject: Coverage action requested
+
+Claim a zero-dollar Preferred Choice policy. Enter your Medicare number at benefit-confirm.example by tonight.",scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-en-email-t03-v03,email,en,"Subject: Coverage action requested
+
+Claim a zero-dollar Select Plus policy. Enter your Medicare number at claims-check.example before tomorrow morning.",scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-en-sms-t03-v01,sms,en,Claim a zero-dollar Community Basic policy. Enter your Medicare number at member-review.example within one hour.,scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-en-sms-t03-v02,sms,en,Claim a zero-dollar Preferred Choice policy. Enter your Medicare number at benefit-confirm.example by tonight.,scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-en-sms-t03-v03,sms,en,Claim a zero-dollar Select Plus policy. Enter your Medicare number at claims-check.example before tomorrow morning.,scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-es-email-t03-v01,email,es,"Asunto: Acción de cobertura
+
+Obtenga una póliza Community Basic sin costo. Ingrese su número de Medicare en member-review.example en una hora.",scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-es-email-t03-v02,email,es,"Asunto: Acción de cobertura
+
+Obtenga una póliza Preferred Choice sin costo. Ingrese su número de Medicare en benefit-confirm.example esta noche.",scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-es-email-t03-v03,email,es,"Asunto: Acción de cobertura
+
+Obtenga una póliza Select Plus sin costo. Ingrese su número de Medicare en claims-check.example antes de mañana.",scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-es-sms-t03-v01,sms,es,Obtenga una póliza Community Basic sin costo. Ingrese su número de Medicare en member-review.example en una hora.,scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-es-sms-t03-v02,sms,es,Obtenga una póliza Preferred Choice sin costo. Ingrese su número de Medicare en benefit-confirm.example esta noche.,scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-insurance_enrollment-es-sms-t03-v03,sms,es,Obtenga una póliza Select Plus sin costo. Ingrese su número de Medicare en claims-check.example antes de mañana.,scam,insurance_enrollment,careshield_synthetic_week2
+syn-scam-medical_debt-en-email-t03-v01,email,en,"Subject: Medical balance notice
+
+You owe $175 for unknown treatment. Do not contact your clinic; pay at member-review.example within one hour.",scam,medical_debt,careshield_synthetic_week2
+syn-scam-medical_debt-en-email-t03-v02,email,en,"Subject: Medical balance notice
+
+You owe $430 for unknown treatment. Do not contact your clinic; pay at benefit-confirm.example by tonight.",scam,medical_debt,careshield_synthetic_week2
+syn-scam-medical_debt-en-email-t03-v03,email,en,"Subject: Medical balance notice
+
+You owe $960 for unknown treatment. Do not contact your clinic; pay at claims-check.example before tomorrow morning.",scam,medical_debt,careshield_synthetic_week2
+syn-scam-medical_debt-en-sms-t03-v01,sms,en,You owe $175 for unknown treatment. Do not contact your clinic; pay at member-review.example within one hour.,scam,medical_debt,careshield_synthetic_week2
+syn-scam-medical_debt-en-sms-t03-v02,sms,en,You owe $430 for unknown treatment. Do not contact your clinic; pay at benefit-confirm.example by tonight.,scam,medical_debt,careshield_synthetic_week2
+syn-scam-medical_debt-en-sms-t03-v03,sms,en,You owe $960 for unknown treatment. Do not contact your clinic; pay at claims-check.example before tomorrow morning.,scam,medical_debt,careshield_synthetic_week2
+syn-scam-medical_debt-es-email-t03-v01,email,es,"Asunto: Aviso de deuda médica
+
+Debe $175 por un tratamiento desconocido. No llame a la clínica; pague en member-review.example en una hora.",scam,medical_debt,careshield_synthetic_week2
+syn-scam-medical_debt-es-email-t03-v02,email,es,"Asunto: Aviso de deuda médica
+
+Debe $430 por un tratamiento desconocido. No llame a la clínica; pague en benefit-confirm.example esta noche.",scam,medical_debt,careshield_synthetic_week2
+syn-scam-medical_debt-es-email-t03-v03,email,es,"Asunto: Aviso de deuda médica
+
+Debe $960 por un tratamiento desconocido. No llame a la clínica; pague en claims-check.example antes de mañana.",scam,medical_debt,careshield_synthetic_week2
+syn-scam-medical_debt-es-sms-t03-v01,sms,es,Debe $175 por un tratamiento desconocido. No llame a la clínica; pague en member-review.example en una hora.,scam,medical_debt,careshield_synthetic_week2
+syn-scam-medical_debt-es-sms-t03-v02,sms,es,Debe $430 por un tratamiento desconocido. No llame a la clínica; pague en benefit-confirm.example esta noche.,scam,medical_debt,careshield_synthetic_week2
+syn-scam-medical_debt-es-sms-t03-v03,sms,es,Debe $960 por un tratamiento desconocido. No llame a la clínica; pague en claims-check.example antes de mañana.,scam,medical_debt,careshield_synthetic_week2
+syn-scam-pharmacy-en-email-t03-v01,email,en,"Subject: Pharmacy update
+
+Your discount medication is reserved; share a credit-card verification code at member-review.example within one hour.",scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-en-email-t03-v02,email,en,"Subject: Pharmacy update
+
+Your discount medication is reserved; share a credit-card verification code at benefit-confirm.example by tonight.",scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-en-email-t03-v03,email,en,"Subject: Pharmacy update
+
+Your discount medication is reserved; share a credit-card verification code at claims-check.example before tomorrow morning.",scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-en-sms-t03-v01,sms,en,Your discount medication is reserved; share a credit-card verification code at member-review.example within one hour.,scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-en-sms-t03-v02,sms,en,Your discount medication is reserved; share a credit-card verification code at benefit-confirm.example by tonight.,scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-en-sms-t03-v03,sms,en,Your discount medication is reserved; share a credit-card verification code at claims-check.example before tomorrow morning.,scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-es-email-t03-v01,email,es,"Asunto: Aviso de farmacia
+
+Su medicamento con descuento está reservado; envíe su código de tarjeta en member-review.example en una hora.",scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-es-email-t03-v02,email,es,"Asunto: Aviso de farmacia
+
+Su medicamento con descuento está reservado; envíe su código de tarjeta en benefit-confirm.example esta noche.",scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-es-email-t03-v03,email,es,"Asunto: Aviso de farmacia
+
+Su medicamento con descuento está reservado; envíe su código de tarjeta en claims-check.example antes de mañana.",scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-es-sms-t03-v01,sms,es,Su medicamento con descuento está reservado; envíe su código de tarjeta en member-review.example en una hora.,scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-es-sms-t03-v02,sms,es,Su medicamento con descuento está reservado; envíe su código de tarjeta en benefit-confirm.example esta noche.,scam,pharmacy,careshield_synthetic_week2
+syn-scam-pharmacy-es-sms-t03-v03,sms,es,Su medicamento con descuento está reservado; envíe su código de tarjeta en claims-check.example antes de mañana.,scam,pharmacy,careshield_synthetic_week2
