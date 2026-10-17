@@ -24,7 +24,7 @@ def test_synthetic_five_families_and_legitimate_examples():
     rows = build_rows()
     scam = [r for r in rows if r["label"] == "scam"]
     good = [r for r in rows if r["label"] == "legitimate"]
-    assert set(r["family"] for r in scam) == {
+    assert {r["family"] for r in scam} == {
         "insurance_enrollment", "medical_debt", "pharmacy",
         "phishing", "impersonation",
     }

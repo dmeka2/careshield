@@ -1,5 +1,5 @@
-from runpy import run_path
 from pathlib import Path
+from runpy import run_path
 
 module = run_path(
     str(Path(__file__).resolve().parents[1] / "scripts" / "audit_uci_candidates.py")
